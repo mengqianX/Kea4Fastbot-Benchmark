@@ -1,0 +1,18 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_notification
+drawable ic_notification_cancel
+drawable ic_notification_fast_forward
+drawable ic_notification_fast_rewind
+drawable ic_notification_new
+drawable ic_notification_next_chapter
+drawable ic_notification_pause
+drawable ic_notification_play
+drawable ic_notification_playback_speed
+drawable ic_notification_skip
+drawable ic_notification_sleep
+drawable ic_notification_sleep_off
+drawable ic_notification_stream
+drawable ic_notification_sync
+drawable ic_notification_sync_error
+string app_name

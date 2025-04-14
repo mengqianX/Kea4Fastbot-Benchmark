@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+id action_search
+id appbar
+id butRetry
+id country_text_input
+id discover_countries_item
+id discover_grid
+id discover_hide_item
+id discover_more
+id discovery_cover
+id errorContainer
+id errorLabel
+id errorRetryButton
+id gridView
+id imgvCover
+id poweredByLabel
+id progressBar
+id search_powered_by
+id toolbar
+id txtvAuthor
+id txtvError
+id txtvTitle
+layout fragment_online_search
+layout online_search_listitem
+layout quick_feed_discovery
+layout quick_feed_discovery_item
+layout select_country_dialog
+menu countries_menu
+menu online_search
+string app_name

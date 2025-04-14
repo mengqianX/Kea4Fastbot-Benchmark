@@ -1,0 +1,5 @@
+R_DEF: Internal format may change without notice
+local
+id notification_id_backup_error
+id pending_intent_backup_error
+string app_name

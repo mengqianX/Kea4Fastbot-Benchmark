@@ -1,0 +1,148 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:1:1-65:12
+INJECTED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:1:1-65:12
+	package
+		INJECTED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:2:5-51
+	xmlns:android
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:5:5-68
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:5:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:9:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:10:22-63
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:11:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:12:5-92
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:12:22-89
+application
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:14:5-56:19
+	android:supportsRtl
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:17:9-35
+	android:icon
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:15:9-35
+service#de.danoeh.antennapod.playback.service.PlaybackService
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:19:9-30:19
+	android:enabled
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:21:13-35
+	android:label
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:20:13-45
+	android:exported
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:22:13-36
+	tools:ignore
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:24:13-43
+	android:foregroundServiceType
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:23:13-58
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:19:18-86
+intent-filter#action:name:android.media.browse.MediaBrowserService+action:name:de.danoeh.antennapod.intents.PLAYBACK_SERVICE
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:26:13-29:29
+action#android.media.browse.MediaBrowserService
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:27:25-80
+action#de.danoeh.antennapod.intents.PLAYBACK_SERVICE
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:28:17-88
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:28:25-85
+receiver#de.danoeh.antennapod.playback.service.MediaButtonReceiver
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:34:13-36
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:33:13-85
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:35:13-37:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:36:25-74
+intent-filter#action:name:de.danoeh.antennapod.NOTIFY_BUTTON_RECEIVER
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:38:13-40:29
+action#de.danoeh.antennapod.NOTIFY_BUTTON_RECEIVER
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:39:17-86
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:39:25-83
+service#de.danoeh.antennapod.playback.service.QuickSettingsTileService
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:43:9-55:19
+	android:enabled
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:45:13-35
+	android:label
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:47:13-45
+	android:exported
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:46:13-36
+	android:permission
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:49:13-77
+	android:icon
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:48:13-53
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:44:13-90
+intent-filter#action:name:android.service.quicksettings.action.QS_TILE
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:50:13-52:29
+action#android.service.quicksettings.action.QS_TILE
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:51:17-87
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:51:25-84
+meta-data#android.service.quicksettings.ACTIVE_TILE
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:53:13-104
+	android:value
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:53:81-101
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:53:24-80
+meta-data#android.service.quicksettings.TOGGLEABLE_TILE
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:54:13-108
+	android:value
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:54:85-105
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:54:24-84
+queries
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:58:5-63:15
+intent#action:name:android.intent.action.VIEW+data:scheme:https
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:59:9-62:18
+action#android.intent.action.VIEW
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:60:13-65
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:60:21-62
+data
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:61:13-44
+	android:scheme
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml:61:19-41
+uses-sdk
+INJECTED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml
+INJECTED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\src\main\AndroidManifest.xml

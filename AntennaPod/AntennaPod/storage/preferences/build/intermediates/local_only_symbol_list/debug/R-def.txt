@@ -1,0 +1,4 @@
+R_DEF: Internal format may change without notice
+local
+array nav_drawer_section_tags
+string app_name

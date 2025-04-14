@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res"><file name="gpodder_icon" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\drawable-nodpi\gpodder_icon.png" qualifiers="nodpi-v4" type="drawable"/><file name="nextcloud_logo" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\drawable-nodpi\nextcloud_logo.png" qualifiers="nodpi-v4" type="drawable"/><file name="theme_preview_dark" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\drawable-nodpi\theme_preview_dark.png" qualifiers="nodpi-v4" type="drawable"/><file name="theme_preview_light" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\drawable-nodpi\theme_preview_light.png" qualifiers="nodpi-v4" type="drawable"/><file name="theme_preview_system" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\drawable-nodpi\theme_preview_system.png" qualifiers="nodpi-v4" type="drawable"/><file name="about_teaser" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\layout\about_teaser.xml" qualifiers="" type="layout"/><file name="alertdialog_sync_provider_chooser" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\layout\alertdialog_sync_provider_chooser.xml" qualifiers="" type="layout"/><file name="authentication_dialog" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\layout\authentication_dialog.xml" qualifiers="" type="layout"/><file name="choose_data_folder_dialog" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\layout\choose_data_folder_dialog.xml" qualifiers="" type="layout"/><file name="choose_data_folder_dialog_entry" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\layout\choose_data_folder_dialog_entry.xml" qualifiers="" type="layout"/><file name="dialog_switch_preference" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\layout\dialog_switch_preference.xml" qualifiers="" type="layout"/><file name="gpodnetauth_credentials" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\layout\gpodnetauth_credentials.xml" qualifiers="" type="layout"/><file name="gpodnetauth_device" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\layout\gpodnetauth_device.xml" qualifiers="" type="layout"/><file name="gpodnetauth_device_row" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\layout\gpodnetauth_device_row.xml" qualifiers="" type="layout"/><file name="gpodnetauth_dialog" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\layout\gpodnetauth_dialog.xml" qualifiers="" type="layout"/><file name="gpodnetauth_finish" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\layout\gpodnetauth_finish.xml" qualifiers="" type="layout"/><file name="gpodnetauth_host" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\layout\gpodnetauth_host.xml" qualifiers="" type="layout"/><file name="nextcloud_auth_dialog" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\layout\nextcloud_auth_dialog.xml" qualifiers="" type="layout"/><file name="proxy_settings" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\layout\proxy_settings.xml" qualifiers="" type="layout"/><file name="settings_activity" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\layout\settings_activity.xml" qualifiers="" type="layout"/><file name="simple_icon_list_item" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\layout\simple_icon_list_item.xml" qualifiers="" type="layout"/><file name="theme_preference" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\layout\theme_preference.xml" qualifiers="" type="layout"/><file name="bug_report_options" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\menu\bug_report_options.xml" qualifiers="" type="menu"/><file path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\values\arrays.xml" qualifiers=""><string-array name="spnAutoDeleteItems">
+        <item>@string/global_default</item>
+        <item>@string/feed_auto_download_always</item>
+        <item>@string/feed_auto_download_never</item>
+    </string-array><string-array name="spnAutoDeleteValues">
+        <item>global</item>
+        <item>always</item>
+        <item>never</item>
+    </string-array><string-array name="spnVolumeAdaptationItems">
+        <item>@string/feed_volume_reduction_heavy</item>
+        <item>@string/feed_volume_reduction_light</item>
+        <item>@string/feed_volume_reduction_off</item>
+        <item>@string/feed_volume_boost_light</item>
+        <item>@string/feed_volume_boost_medium</item>
+        <item>@string/feed_volume_boost_heavy</item>
+    </string-array><string-array name="spnVolumeAdaptationValues">
+        <item>heavy</item>
+        <item>light</item>
+        <item>off</item>
+        <item>light_boost</item>
+        <item>medium_boost</item>
+        <item>heavy_boost</item>
+    </string-array><string-array name="feed_refresh_interval_entries">
+        <item>@string/feed_refresh_never</item>
+        <item>@string/feed_every_hour</item>
+        <item>@string/feed_every_2_hours</item>
+        <item>@string/feed_every_4_hours</item>
+        <item>@string/feed_every_8_hours</item>
+        <item>@string/feed_every_12_hours</item>
+        <item>@string/feed_every_24_hours</item>
+        <item>@string/feed_every_72_hours</item>
+    </string-array><string-array name="feed_refresh_interval_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>12</item>
+        <item>24</item>
+        <item>72</item>
+    </string-array><string-array name="globalNewEpisodesActionItems">
+        <item>@string/feed_new_episodes_action_add_to_inbox</item>
+        <item>@string/feed_new_episodes_action_add_to_queue</item>
+        <item>@string/feed_new_episodes_action_nothing</item>
+    </string-array><string-array name="globalNewEpisodesActionValues">
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array><string-array name="feedNewEpisodesActionItems">
+        <item>@string/global_default</item>
+        <item>@string/feed_new_episodes_action_add_to_inbox</item>
+        <item>@string/feed_new_episodes_action_add_to_queue</item>
+        <item>@string/feed_new_episodes_action_nothing</item>
+    </string-array><string-array name="feedNewEpisodesActionValues">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array><string-array name="smart_mark_as_played_values">
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>300</item>
+    </string-array><integer-array name="seek_delta_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </integer-array><string-array name="episode_cache_size_entries">
+        <item>5</item>
+        <item>10</item>
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+        <item>500</item>
+        <item>@string/pref_episode_cache_unlimited</item>
+    </string-array><string-array name="episode_cache_size_values">
+        <item>5</item>
+        <item>10</item>
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+        <item>500</item>
+        <item>-1</item>
+    </string-array><string-array name="mobile_update_entries">
+        <item>@string/pref_mobileUpdate_refresh</item>
+        <item>@string/pref_mobileUpdate_episode_download</item>
+        <item>@string/pref_mobileUpdate_auto_download</item>
+        <item>@string/pref_mobileUpdate_streaming</item>
+        <item>@string/pref_mobileUpdate_images</item>
+        <item>@string/synchronization_pref</item>
+    </string-array><string-array name="mobile_update_values">
+        <item>feed_refresh</item>
+        <item>episode_download</item>
+        <item>auto_download</item>
+        <item>streaming</item>
+        <item>images</item>
+        <item>sync</item>
+    </string-array><string-array name="mobile_update_default_value">
+        <item>images</item>
+        <item>sync</item>
+    </string-array><string-array name="episode_cleanup_entries">
+        <item>@string/episode_cleanup_except_favorite_removal</item>
+        <item>@string/episode_cleanup_queue_removal</item>
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>@string/episode_cleanup_never</item>
+    </string-array><string-array name="button_action_options">
+        <item>@string/button_action_fast_forward</item>
+        <item>@string/button_action_rewind</item>
+        <item>@string/button_action_skip_episode</item>
+        <item>@string/button_action_restart_episode</item>
+    </string-array><string-array name="button_action_values">
+        <item>@string/keycode_media_fast_forward</item>
+        <item>@string/keycode_media_rewind</item>
+        <item>@string/keycode_media_next</item>
+        <item>@string/keycode_media_previous</item>
+    </string-array><string-array name="enqueue_location_options">
+        <item>@string/enqueue_location_back</item>
+        <item>@string/enqueue_location_front</item>
+        <item>@string/enqueue_location_after_current</item>
+        <item>@string/enqueue_location_random</item>
+    </string-array><string-array name="enqueue_location_values">
+        
+        <item>BACK</item>
+        <item>FRONT</item>
+        <item>AFTER_CURRENTLY_PLAYING</item>
+        <item>RANDOM</item>
+    </string-array><string-array name="episode_cleanup_values">
+        <item>-3</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>12</item>
+        <item>24</item>
+        <item>72</item>
+        <item>120</item>
+        <item>168</item>
+        <item>-2</item>
+    </string-array><string-array name="nav_drawer_feed_order_options">
+        <item>@string/drawer_feed_order_unplayed_episodes</item>
+        <item>@string/drawer_feed_order_alphabetical</item>
+        <item>@string/drawer_feed_order_last_update</item>
+        <item>@string/drawer_feed_order_most_played</item>
+    </string-array><string-array name="nav_drawer_feed_order_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array><string-array name="nav_drawer_feed_counter_options">
+        <item>@string/drawer_feed_counter_inbox</item>
+        <item>@string/drawer_feed_counter_unplayed</item>
+        <item>@string/drawer_feed_counter_downloaded</item>
+        <item>@string/drawer_feed_counter_downloaded_unplayed</item>
+        <item>@string/drawer_feed_counter_none</item>
+    </string-array><string-array name="nav_drawer_feed_counter_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>3</item>
+    </string-array><string-array name="home_section_titles">
+        <item>@string/home_continue_title</item>
+        <item>@string/home_new_title</item>
+        <item>@string/home_surprise_title</item>
+        <item>@string/home_classics_title</item>
+        <item>@string/home_downloads_title</item>
+    </string-array><string-array name="home_section_tags">
+        <item>QueueSection</item>
+        <item>InboxSection</item>
+        <item>EpisodesSurpriseSection</item>
+        <item>SubscriptionsSection</item>
+        <item>DownloadsSection</item>
+    </string-array><string-array name="full_notification_buttons_options">
+        <item>@string/skip_episode_label</item>
+        <item>@string/next_chapter</item>
+        <item>@string/playback_speed</item>
+        <item>@string/sleep_timer_label</item>
+    </string-array><string-array name="default_page_values">
+        <item>HomeFragment</item>
+        <item>QueueFragment</item>
+        <item>NewEpisodesFragment</item>
+        <item>EpisodesFragment</item>
+        <item>SubscriptionFragment</item>
+        <item>remember</item>
+    </string-array><string-array name="default_page_titles">
+        <item>@string/home_label</item>
+        <item>@string/queue_label</item>
+        <item>@string/inbox_label</item>
+        <item>@string/episodes_label</item>
+        <item>@string/subscriptions_label</item>
+        <item>@string/remember_last_page</item>
+    </string-array></file><file path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\values\keycodes.xml" qualifiers=""><string name="keycode_media_next">87</string><string name="keycode_media_previous">88</string><string name="keycode_media_rewind">89</string><string name="keycode_media_fast_forward">90</string></file><file name="preferences" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\xml\preferences.xml" qualifiers="" type="xml"/><file name="preferences_about" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\xml\preferences_about.xml" qualifiers="" type="xml"/><file name="preferences_autodownload" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\xml\preferences_autodownload.xml" qualifiers="" type="xml"/><file name="preferences_auto_deletion" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\xml\preferences_auto_deletion.xml" qualifiers="" type="xml"/><file name="preferences_downloads" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\xml\preferences_downloads.xml" qualifiers="" type="xml"/><file name="preferences_import_export" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\xml\preferences_import_export.xml" qualifiers="" type="xml"/><file name="preferences_notifications" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\xml\preferences_notifications.xml" qualifiers="" type="xml"/><file name="preferences_playback" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\xml\preferences_playback.xml" qualifiers="" type="xml"/><file name="preferences_swipe" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\xml\preferences_swipe.xml" qualifiers="" type="xml"/><file name="preferences_synchronization" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\xml\preferences_synchronization.xml" qualifiers="" type="xml"/><file name="preferences_user_interface" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\main\res\xml\preferences_user_interface.xml" qualifiers="" type="xml"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="free$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\free\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="free" generated-set="free$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\free\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\build\generated\res\resValues\free\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\build\generated\res\resValues\free\debug"><file path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\build\generated\res\resValues\free\debug\values\gradleResValues.xml" qualifiers=""><string name="app_name" translatable="false">AntennaPod Debug</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="variant$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\freeDebug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="variant" generated-set="variant$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\preferences\src\freeDebug\res"/></dataSet><mergedItems/></merger>

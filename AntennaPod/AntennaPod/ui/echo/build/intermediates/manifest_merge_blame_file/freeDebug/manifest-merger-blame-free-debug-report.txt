@@ -1,0 +1,35 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="de.danoeh.antennapod.ui.echo"
+4    android:installLocation="auto" >
+5
+6    <uses-sdk android:minSdkVersion="21" />
+7
+8    <application
+8-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\echo\src\main\AndroidManifest.xml:5:5-18:19
+9        android:allowBackup="true"
+9-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\echo\src\main\AndroidManifest.xml:6:9-35
+10        android:icon="@mipmap/ic_launcher"
+10-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\echo\src\main\AndroidManifest.xml:7:9-43
+11        android:supportsRtl="true" >
+11-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\echo\src\main\AndroidManifest.xml:8:9-35
+12        <activity
+12-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\echo\src\main\AndroidManifest.xml:9:9-17:20
+13            android:name="de.danoeh.antennapod.ui.echo.EchoActivity"
+13-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\echo\src\main\AndroidManifest.xml:11:13-41
+14            android:exported="false"
+14-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\echo\src\main\AndroidManifest.xml:12:13-37
+15            android:label="@string/antennapod_echo"
+15-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\echo\src\main\AndroidManifest.xml:10:13-52
+16            android:theme="@style/Theme.AntennaPod.Dark.NoTitle" >
+16-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\echo\src\main\AndroidManifest.xml:13:13-65
+17            <intent-filter>
+17-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\echo\src\main\AndroidManifest.xml:14:13-16:29
+18                <category android:name="android.intent.category.DEFAULT" />
+18-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\echo\src\main\AndroidManifest.xml:15:17-76
+18-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\echo\src\main\AndroidManifest.xml:15:27-73
+19            </intent-filter>
+20        </activity>
+21    </application>
+22
+23</manifest>

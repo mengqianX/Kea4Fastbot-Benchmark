@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3" xmlns:ns1="http://schemas.android.com/tools"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res"><file name="fade_in" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\anim\fade_in.xml" qualifiers="" type="anim"/><file name="fade_out" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\anim\fade_out.xml" qualifiers="" type="anim"/><file name="slide_left_in" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\anim\slide_left_in.xml" qualifiers="" type="anim"/><file name="slide_left_out" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\anim\slide_left_out.xml" qualifiers="" type="anim"/><file name="slide_right_in" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\anim\slide_right_in.xml" qualifiers="" type="anim"/><file name="slide_right_out" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\anim\slide_right_out.xml" qualifiers="" type="anim"/><file name="button_bg_selector" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\color\button_bg_selector.xml" qualifiers="" type="color"/><file name="bg_blue_gradient" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\bg_blue_gradient.xml" qualifiers="" type="drawable"/><file name="bg_circle" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\bg_circle.xml" qualifiers="" type="drawable"/><file name="bg_drawer_item" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\bg_drawer_item.xml" qualifiers="" type="drawable"/><file name="bg_gradient" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\bg_gradient.xml" qualifiers="" type="drawable"/><file name="bg_message_error" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\bg_message_error.xml" qualifiers="" type="drawable"/><file name="bg_message_info" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\bg_message_info.xml" qualifiers="" type="drawable"/><file name="bg_pill" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\bg_pill.xml" qualifiers="" type="drawable"/><file name="bg_pill_translucent" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\bg_pill_translucent.xml" qualifiers="" type="drawable"/><file name="dots_vertical" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\dots_vertical.xml" qualifiers="" type="drawable"/><file name="ic_add" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_add.xml" qualifiers="" type="drawable"/><file name="ic_appearance" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_appearance.xml" qualifiers="" type="drawable"/><file name="ic_arrow_down" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_arrow_down.xml" qualifiers="" type="drawable"/><file name="ic_arrow_right_white" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_arrow_right_white.xml" qualifiers="" type="drawable"/><file name="ic_bug" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_bug.xml" qualifiers="" type="drawable"/><file name="ic_cancel" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_cancel.xml" qualifiers="" type="drawable"/><file name="ic_chapter_next" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_chapter_next.xml" qualifiers="" type="drawable"/><file name="ic_chapter_prev" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_chapter_prev.xml" qualifiers="" type="drawable"/><file name="ic_chart_box" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_chart_box.xml" qualifiers="" type="drawable"/><file name="ic_chat" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_chat.xml" qualifiers="" type="drawable"/><file name="ic_check" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_check.xml" qualifiers="" type="drawable"/><file name="ic_checkbox_background" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_checkbox_background.xml" qualifiers="" type="drawable"/><file name="ic_close" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_close.xml" qualifiers="" type="drawable"/><file name="ic_close_white" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_close_white.xml" qualifiers="" type="drawable"/><file name="ic_cloud" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_cloud.xml" qualifiers="" type="drawable"/><file name="ic_contribute" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_contribute.xml" qualifiers="" type="drawable"/><file name="ic_contributors" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_contributors.xml" qualifiers="" type="drawable"/><file name="ic_curved_arrow" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_curved_arrow.xml" qualifiers="" type="drawable"/><file name="ic_delete" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_delete.xml" qualifiers="" type="drawable"/><file name="ic_delete_auto" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_delete_auto.xml" qualifiers="" type="drawable"/><file name="ic_disc_alert" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_disc_alert.xml" qualifiers="" type="drawable"/><file name="ic_download" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_download.xml" qualifiers="" type="drawable"/><file name="ic_download_black" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_download_black.xml" qualifiers="" type="drawable"/><file name="ic_drag_darktheme" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_drag_darktheme.xml" qualifiers="" type="drawable"/><file name="ic_drag_lighttheme" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_drag_lighttheme.xml" qualifiers="" type="drawable"/><file name="ic_error" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_error.xml" qualifiers="" type="drawable"/><file name="ic_eye" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_eye.xml" qualifiers="" type="drawable"/><file name="ic_fast_forward" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_fast_forward.xml" qualifiers="" type="drawable"/><file name="ic_fast_forward_video_white" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_fast_forward_video_white.xml" qualifiers="" type="drawable"/><file name="ic_fast_rewind" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_fast_rewind.xml" qualifiers="" type="drawable"/><file name="ic_fast_rewind_video_white" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_fast_rewind_video_white.xml" qualifiers="" type="drawable"/><file name="ic_feed" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_feed.xml" qualifiers="" type="drawable"/><file name="ic_feed_black" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_feed_black.xml" qualifiers="" type="drawable"/><file name="ic_filter" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_filter.xml" qualifiers="" type="drawable"/><file name="ic_filter_white" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_filter_white.xml" qualifiers="" type="drawable"/><file name="ic_folder" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_folder.xml" qualifiers="" type="drawable"/><file name="ic_history" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_history.xml" qualifiers="" type="drawable"/><file name="ic_history_remove" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_history_remove.xml" qualifiers="" type="drawable"/><file name="ic_home" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_home.xml" qualifiers="" type="drawable"/><file name="ic_inbox" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_inbox.xml" qualifiers="" type="drawable"/><file name="ic_info" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_info.xml" qualifiers="" type="drawable"/><file name="ic_info_white" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_info_white.xml" qualifiers="" type="drawable"/><file name="ic_key" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_key.xml" qualifiers="" type="drawable"/><file name="ic_load_more" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_load_more.xml" qualifiers="" type="drawable"/><file name="ic_mark_played" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_mark_played.xml" qualifiers="" type="drawable"/><file name="ic_mark_unplayed" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_mark_unplayed.xml" qualifiers="" type="drawable"/><file name="ic_notifications" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_notifications.xml" qualifiers="" type="drawable"/><file name="ic_paperclip" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_paperclip.xml" qualifiers="" type="drawable"/><file name="ic_pause" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_pause.xml" qualifiers="" type="drawable"/><file name="ic_pause_video_white" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_pause_video_white.xml" qualifiers="" type="drawable"/><file name="ic_pencil" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_pencil.xml" qualifiers="" type="drawable"/><file name="ic_playback_speed" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_playback_speed.xml" qualifiers="" type="drawable"/><file name="ic_playlist_play" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_playlist_play.xml" qualifiers="" type="drawable"/><file name="ic_playlist_play_black" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_playlist_play_black.xml" qualifiers="" type="drawable"/><file name="ic_playlist_remove" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_playlist_remove.xml" qualifiers="" type="drawable"/><file name="ic_play_24dp" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_play_24dp.xml" qualifiers="" type="drawable"/><file name="ic_play_48dp" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_play_48dp.xml" qualifiers="" type="drawable"/><file name="ic_play_video_white" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_play_video_white.xml" qualifiers="" type="drawable"/><file name="ic_policy" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_policy.xml" qualifiers="" type="drawable"/><file name="ic_questionmark" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_questionmark.xml" qualifiers="" type="drawable"/><file name="ic_refresh" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_refresh.xml" qualifiers="" type="drawable"/><file name="ic_refresh_black" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_refresh_black.xml" qualifiers="" type="drawable"/><file name="ic_replay" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_replay.xml" qualifiers="" type="drawable"/><file name="ic_rounded_corner_left" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_rounded_corner_left.xml" qualifiers="" type="drawable"/><file name="ic_rounded_corner_right" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_rounded_corner_right.xml" qualifiers="" type="drawable"/><file name="ic_search" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_search.xml" qualifiers="" type="drawable"/><file name="ic_select_all" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_select_all.xml" qualifiers="" type="drawable"/><file name="ic_select_none" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_select_none.xml" qualifiers="" type="drawable"/><file name="ic_settings" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_settings.xml" qualifiers="" type="drawable"/><file name="ic_settings_white" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_settings_white.xml" qualifiers="" type="drawable"/><file name="ic_share" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_share.xml" qualifiers="" type="drawable"/><file name="ic_shortcut_background" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_shortcut_background.xml" qualifiers="" type="drawable"/><file name="ic_shuffle" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_shuffle.xml" qualifiers="" type="drawable"/><file name="ic_skip_24dp" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_skip_24dp.xml" qualifiers="" type="drawable"/><file name="ic_skip_48dp" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_skip_48dp.xml" qualifiers="" type="drawable"/><file name="ic_sleep" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_sleep.xml" qualifiers="" type="drawable"/><file name="ic_sleep_off" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_sleep_off.xml" qualifiers="" type="drawable"/><file name="ic_star" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_star.xml" qualifiers="" type="drawable"/><file name="ic_star_border" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_star_border.xml" qualifiers="" type="drawable"/><file name="ic_storage" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_storage.xml" qualifiers="" type="drawable"/><file name="ic_stream" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_stream.xml" qualifiers="" type="drawable"/><file name="ic_subscriptions" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_subscriptions.xml" qualifiers="" type="drawable"/><file name="ic_subscriptions_black" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_subscriptions_black.xml" qualifiers="" type="drawable"/><file name="ic_tag" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_tag.xml" qualifiers="" type="drawable"/><file name="ic_videocam" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_videocam.xml" qualifiers="" type="drawable"/><file name="ic_volume_adaption" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_volume_adaption.xml" qualifiers="" type="drawable"/><file name="ic_web" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\ic_web.xml" qualifiers="" type="drawable"/><file name="launcher_animate" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\launcher_animate.xml" qualifiers="" type="drawable"/><file name="progress_bar_horizontal_dark" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\progress_bar_horizontal_dark.xml" qualifiers="" type="drawable"/><file name="progress_bar_horizontal_light" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\progress_bar_horizontal_light.xml" qualifiers="" type="drawable"/><file name="scrollbar_thumb_dark" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\scrollbar_thumb_dark.xml" qualifiers="" type="drawable"/><file name="scrollbar_thumb_default" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\scrollbar_thumb_default.xml" qualifiers="" type="drawable"/><file name="scrollbar_thumb_light" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\scrollbar_thumb_light.xml" qualifiers="" type="drawable"/><file name="scrollbar_thumb_pressed_dark" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\scrollbar_thumb_pressed_dark.xml" qualifiers="" type="drawable"/><file name="scrollbar_thumb_pressed_light" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\scrollbar_thumb_pressed_light.xml" qualifiers="" type="drawable"/><file name="scrollbar_track" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\scrollbar_track.xml" qualifiers="" type="drawable"/><file name="transcript" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable\transcript.xml" qualifiers="" type="drawable"/><file name="launcher_animate_bg" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable-nodpi\launcher_animate_bg.png" qualifiers="nodpi-v4" type="drawable"/><file name="launcher_animate_wave1" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable-nodpi\launcher_animate_wave1.png" qualifiers="nodpi-v4" type="drawable"/><file name="launcher_animate_wave2" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable-nodpi\launcher_animate_wave2.png" qualifiers="nodpi-v4" type="drawable"/><file name="logo_monochrome" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable-nodpi\logo_monochrome.png" qualifiers="nodpi-v4" type="drawable"/><file name="teaser" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\drawable-nodpi\teaser.webp" qualifiers="nodpi-v4" type="drawable"/><file name="pager_fragment" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\layout\pager_fragment.xml" qualifiers="" type="layout"/><file name="preference_material_switch" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\layout\preference_material_switch.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\mipmap-anydpi-v26\ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\mipmap-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_background" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\mipmap-hdpi\ic_launcher_background.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_foreground" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\mipmap-hdpi\ic_launcher_foreground.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\mipmap-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_background" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\mipmap-mdpi\ic_launcher_background.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_foreground" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\mipmap-mdpi\ic_launcher_foreground.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\mipmap-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_background" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\mipmap-xhdpi\ic_launcher_background.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_foreground" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\mipmap-xhdpi\ic_launcher_foreground.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\mipmap-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_background" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\mipmap-xxhdpi\ic_launcher_background.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_foreground" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\mipmap-xxhdpi\ic_launcher_foreground.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\mipmap-xxxhdpi\ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_background" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\mipmap-xxxhdpi\ic_launcher_background.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_foreground" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\mipmap-xxxhdpi\ic_launcher_foreground.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_monochrome" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\mipmap-xxxhdpi\ic_launcher_monochrome.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\values\attrs.xml" qualifiers=""><attr format="reference" name="dragview_background"/><attr format="reference" name="progressBarTheme"/><attr format="color" name="action_icon_color"/><attr format="reference" name="scrollbar_thumb"/><attr format="color" name="background_color"/><attr format="color" name="background_elevated"/><attr format="color" name="seek_background"/><attr format="color" name="icon_red"/><attr format="color" name="icon_yellow"/><attr format="color" name="icon_green"/><attr format="color" name="icon_purple"/><attr format="color" name="icon_gray"/></file><file path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\values\colors.xml" qualifiers=""><color name="white">#FFFFFF</color><color name="grey100">#f5f5f5</color><color name="grey600">#757575</color><color name="light_gray">#bfbfbf</color><color name="medium_gray">#afafaf</color><color name="black">#000000</color><color name="image_readability_tint">#80000000</color><color name="feed_text_bg">#55333333</color><color name="background_light">#f9fcff</color><color name="background_elevated_light">#EFEEEE</color><color name="background_darktheme">#21272b</color><color name="background_elevated_darktheme">#2D3337</color><color name="non_square_icon_background">#22777777</color><color name="seek_background_light">#90000000</color><color name="seek_background_dark">#905B5B5B</color><color name="accent_light">#0078C2</color><color name="accent_dark">#3D8BFF</color><color name="gradient_000">#364ff3</color><color name="gradient_025">#2E6FF6</color><color name="gradient_075">#1EB0FC</color><color name="gradient_100">#16d0ff</color></file><file path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\values\dimens.xml" qualifiers=""><dimen name="external_player_height">64dp</dimen><dimen name="text_size_micro">12sp</dimen><dimen name="text_size_small">14sp</dimen><dimen name="text_size_navdrawer">16sp</dimen><dimen name="text_size_large">22sp</dimen><dimen name="thumbnail_length_itemlist">56dp</dimen><dimen name="thumbnail_length_queue_item">56dp</dimen><dimen name="thumbnail_length_navlist">40dp</dimen><dimen name="listitem_iconwithtext_height">48dp</dimen><dimen name="listitem_iconwithtext_textleftpadding">16dp</dimen><dimen name="listitem_threeline_textleftpadding">16dp</dimen><dimen name="listitem_threeline_textrightpadding">8dp</dimen><dimen name="listitem_threeline_verticalpadding">8dp</dimen><dimen name="list_vertical_padding">8dp</dimen><dimen name="listitem_icon_leftpadding">16dp</dimen><dimen name="audioplayer_playercontrols_length">48dp</dimen><dimen name="audioplayer_playercontrols_length_big">64dp</dimen><dimen name="audioplayer_playercontrols_margin">12dp</dimen><dimen name="nav_drawer_max_screen_size">480dp</dimen></file><file path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\values\integers.xml" qualifiers=""><integer name="fragment_transition_duration">300</integer></file><file path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\values\styleable.xml" qualifiers=""><declare-styleable name="SquareImageView">
+        <attr format="enum" name="direction">
+            <enum name="width" value="0"/>
+            <enum name="height" value="1"/>
+            <enum name="minimum" value="2"/>
+        </attr>
+    </declare-styleable><declare-styleable name="CircularProgressBar">
+        <attr format="color" name="foregroundColor"/>
+    </declare-styleable><declare-styleable name="PlaybackSpeedIndicatorView">
+        <attr name="foregroundColor"/> 
+    </declare-styleable></file><file path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\values\styles.xml" qualifiers=""><style name="Theme.AntennaPod.Dynamic.Light" parent="Theme.Base.AntennaPod.Dynamic.Light">
+        
+
+        
+        <item name="android:statusBarColor">@color/grey600</item>
+        <item name="android:navigationBarColor">@color/grey600</item>
+    </style><style name="Theme.Base.AntennaPod.Dynamic.Light" parent="Theme.Material3.DynamicColors.Light">
+        <item name="progressBarTheme">@style/ProgressBarLight</item>
+        <item name="background_color">@color/background_light</item>
+        <item name="actionBarStyle">@style/Widget.AntennaPod.ActionBar</item>
+        <item name="background_elevated">@color/background_elevated_light</item>
+        <item name="action_icon_color">@color/black</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="seek_background">@color/seek_background_light</item>
+        <item name="dragview_background">@drawable/ic_drag_lighttheme</item>
+        <item name="scrollbar_thumb">@drawable/scrollbar_thumb_light</item>
+        <item name="icon_red">#CF1800</item>
+        <item name="icon_yellow">#F59F00</item>
+        <item name="icon_green">#008537</item>
+        <item name="icon_purple">#5F1984</item>
+        <item name="icon_gray">#25365A</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="toolbarStyle">@style/Style.AntennaPod.Toolbar</item>
+        <item name="preferenceTheme">@style/AppPreferenceThemeOverlay</item>
+    </style><style name="Theme.AntennaPod.Light" parent="Theme.AntennaPod.Dynamic.Light">
+        <item name="isMaterial3DynamicColorApplied">false</item>
+        <item name="colorPrimary">@color/accent_light</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorAccent">@color/accent_light</item>
+        <item name="colorSecondary">@color/accent_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorPrimaryDark">@color/accent_light</item>
+        <item name="colorPrimaryContainer">#D6E6F3</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorSurface">@color/background_light</item>
+        <item name="colorSurfaceVariant">#D3DCE0</item>
+        <item name="colorSurfaceContainer">#EBEEF3</item>
+        <item name="colorSecondaryContainer">#D3DCE0</item>
+    </style><style name="Theme.AntennaPod.Dynamic.Dark" parent="Theme.Base.AntennaPod.Dynamic.Dark">
+        
+    </style><style name="Theme.Base.AntennaPod.Dynamic.Dark" parent="Theme.Material3.DynamicColors.Dark">
+        <item name="progressBarTheme">@style/ProgressBarDark</item>
+        <item name="background_color">@color/background_darktheme</item>
+        <item name="background_elevated">@color/background_elevated_darktheme</item>
+        <item name="action_icon_color">@color/white</item>
+        <item name="actionBarStyle">@style/Widget.AntennaPod.ActionBar</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="seek_background">@color/seek_background_dark</item>
+        <item name="dragview_background">@drawable/ic_drag_darktheme</item>
+        <item name="scrollbar_thumb">@drawable/scrollbar_thumb_dark</item>
+        <item name="icon_red">#CF1800</item>
+        <item name="icon_yellow">#F59F00</item>
+        <item name="icon_green">#008537</item>
+        <item name="icon_purple">#AA55D8</item>
+        <item name="icon_gray">#CDD9E4</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">false</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="toolbarStyle">@style/Style.AntennaPod.Toolbar</item>
+        <item name="preferenceTheme">@style/AppPreferenceThemeOverlay</item>
+    </style><style name="Theme.AntennaPod.Dark" parent="Theme.AntennaPod.Dynamic.Dark">
+        <item name="isMaterial3DynamicColorApplied">false</item>
+        <item name="colorPrimary">@color/accent_dark</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorAccent">@color/accent_dark</item>
+        <item name="colorSecondary">@color/accent_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorPrimaryDark">@color/accent_dark</item>
+        <item name="colorPrimaryContainer">#29374E</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+        <item name="android:colorBackground">@color/background_darktheme</item>
+        <item name="colorSurface">@color/background_darktheme</item>
+        <item name="colorSurfaceVariant">#2F3B4F</item>
+        <item name="colorSurfaceContainer">#1C2024</item>
+        <item name="colorSecondaryContainer">#2F3B4F</item>
+    </style><style name="Theme.AntennaPod.Dynamic.TrueBlack" parent="Theme.AntennaPod.Dynamic.Dark">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:color">@color/white</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="colorSurface">@color/black</item>
+        <item name="background_color">@color/black</item>
+        <item name="background_elevated">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style><style name="Theme.AntennaPod.TrueBlack" parent="Theme.AntennaPod.Dark">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:color">@color/white</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="colorSurface">@color/black</item>
+        <item name="background_color">@color/black</item>
+        <item name="background_elevated">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="colorPrimaryContainer">#0D182B</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+    </style><style name="Theme.AntennaPod.Dynamic.Light.NoTitle" parent="Theme.AntennaPod.Dynamic.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style><style name="Theme.AntennaPod.Light.NoTitle" parent="Theme.AntennaPod.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style><style name="Theme.AntennaPod.Dynamic.Dark.NoTitle" parent="Theme.AntennaPod.Dynamic.Dark">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style><style name="Theme.AntennaPod.Dark.NoTitle" parent="Theme.AntennaPod.Dark">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style><style name="Theme.AntennaPod.TrueBlack.NoTitle" parent="Theme.AntennaPod.TrueBlack">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style><style name="Theme.AntennaPod.Dynamic.TrueBlack.NoTitle" parent="Theme.AntennaPod.Dynamic.TrueBlack">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style><style name="Theme.AntennaPod.Dynamic.Light.Translucent" parent="Theme.AntennaPod.Dynamic.Light.NoTitle">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="M">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationFade</item>
+    </style><style name="Theme.AntennaPod.Light.Translucent" parent="Theme.AntennaPod.Light.NoTitle">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="M">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationFade</item>
+    </style><style name="Theme.AntennaPod.Dynamic.Dark.Translucent" parent="Theme.AntennaPod.Dynamic.Dark.NoTitle">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="M">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationFade</item>
+    </style><style name="Theme.AntennaPod.Dark.Translucent" parent="Theme.AntennaPod.Dark.NoTitle">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="M">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationFade</item>
+    </style><style name="Theme.AntennaPod.Dynamic.TrueBlack.Translucent" parent="Theme.AntennaPod.Dynamic.TrueBlack.NoTitle">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="M">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationFade</item>
+    </style><style name="Theme.AntennaPod.TrueBlack.Translucent" parent="Theme.AntennaPod.TrueBlack.NoTitle">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="M">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationFade</item>
+    </style><style name="AnimationFade">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style><style name="Theme.AntennaPod.Splash" parent="Theme.SplashScreen">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="M">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:enforceNavigationBarContrast" ns1:targetApi="q">false</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/launcher_animate</item>
+    </style><style name="Theme.AntennaPod.Splash.Translucent" parent="Theme.AntennaPod.Splash">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationFade</item>
+    </style><style name="Style.AntennaPod.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="materialThemeOverlay">@style/Theme.AntennaPod.Toolbar</item>
+    </style><style name="Theme.AntennaPod.Toolbar" parent="ThemeOverlay.MaterialComponents.Toolbar.Surface">
+        <item name="action_icon_color">?attr/colorOnSurface</item>
+        <item name="colorControlNormal">?attr/colorOnSurface</item>
+    </style><style name="Theme.AntennaPod.VideoPlayer" parent="@style/Theme.AntennaPod.Dark">
+        <item name="windowActionBarOverlay">true</item>
+    </style><style name="AntennaPod.TextView.Heading" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style><style name="AntennaPod.TextView.ListItemPrimaryTitle" parent="@style/TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="lineHeight">20sp</item>
+        <item name="android:lineHeight" ns1:targetApi="p">20sp</item>
+    </style><style name="AntennaPod.TextView.ListItemSecondaryTitle" parent="@style/TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style><style name="AntennaPod.TextView.ListItemBody" parent="@style/TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:lineHeight" ns1:targetApi="p">18sp</item>
+    </style><style name="OutlinedButtonBetterContrast" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="backgroundTint">@color/button_bg_selector</item>
+    </style><style name="ProgressBarLight">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progress_bar_horizontal_light</item>
+    </style><style name="ProgressBarDark">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progress_bar_horizontal_dark</item>
+    </style><style name="FastScrollRecyclerView" parent="android:Widget">
+        <item name="android:scrollbars">none</item>
+        <item name="fastScrollEnabled">true</item>
+        <item name="fastScrollHorizontalThumbDrawable">?attr/scrollbar_thumb</item>
+        <item name="fastScrollHorizontalTrackDrawable">@drawable/scrollbar_track</item>
+        <item name="fastScrollVerticalThumbDrawable">?attr/scrollbar_thumb</item>
+        <item name="fastScrollVerticalTrackDrawable">@drawable/scrollbar_track</item>
+    </style><style name="Widget.AntennaPod.ActionBar" parent="Widget.Material3.Light.ActionBar.Solid">
+        <item name="background">?android:attr/colorBackground</item>
+        <item name="elevation">0dp</item>
+    </style><style name="AddPodcastTextView" parent="@style/TextAppearance.Material3.BodyMedium">
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:clickable">true</item>
+    </style><style name="TextPill">
+        <item name="android:background">@drawable/bg_pill_translucent</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+    </style><style name="AppPreferenceThemeOverlay" parent="@style/PreferenceThemeOverlay">
+        <item name="switchPreferenceCompatStyle">@style/AppSwitchPreference</item>
+    </style><style name="AppSwitchPreference" parent="@style/Preference.SwitchPreferenceCompat.Material">
+        <item name="widgetLayout">@layout/preference_material_switch</item>
+    </style></file><file path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\values-v23\styles.xml" qualifiers="v23"><style name="Theme.AntennaPod.Dynamic.Light" parent="Theme.Base.AntennaPod.Dynamic.Light">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style></file><file path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\main\res\values-v27\styles.xml" qualifiers="v27"><style name="Theme.AntennaPod.Dynamic.Light" parent="Theme.Base.AntennaPod.Dynamic.Light">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\debug\res"><file name="ic_launcher_background" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\debug\res\mipmap-hdpi\ic_launcher_background.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_foreground" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\debug\res\mipmap-hdpi\ic_launcher_foreground.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_background" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\debug\res\mipmap-mdpi\ic_launcher_background.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_foreground" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\debug\res\mipmap-mdpi\ic_launcher_foreground.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_background" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\debug\res\mipmap-xhdpi\ic_launcher_background.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_foreground" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\debug\res\mipmap-xhdpi\ic_launcher_foreground.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_background" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\debug\res\mipmap-xxhdpi\ic_launcher_background.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_foreground" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\debug\res\mipmap-xxhdpi\ic_launcher_foreground.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_background" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\debug\res\mipmap-xxxhdpi\ic_launcher_background.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_foreground" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\debug\res\mipmap-xxxhdpi\ic_launcher_foreground.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_monochrome" path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\src\debug\res\mipmap-xxxhdpi\ic_launcher_monochrome.png" qualifiers="xxxhdpi-v4" type="mipmap"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\build\generated\res\resValues\debug"><file path="D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\common\build\generated\res\resValues\debug\values\gradleResValues.xml" qualifiers=""><string name="app_name" translatable="false">AntennaPod Debug</string></file></source></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SquareImageView">
+        <attr format="enum" name="direction">
+            <enum name="width" value="0"/>
+            <enum name="height" value="1"/>
+            <enum name="minimum" value="2"/>
+        </attr>
+    </declare-styleable><declare-styleable name="PlaybackSpeedIndicatorView">
+        <attr name="foregroundColor"/> 
+    </declare-styleable><declare-styleable name="CircularProgressBar">
+        <attr format="color" name="foregroundColor"/>
+    </declare-styleable></configuration></mergedItems></merger>

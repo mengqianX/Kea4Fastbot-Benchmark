@@ -1,0 +1,503 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="de.danoeh.antennapod.core.tests" >
+4
+5    <uses-sdk
+5-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest18143928095417085138.xml:5:5-74
+6        android:minSdkVersion="21"
+6-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest18143928095417085138.xml:5:15-41
+7        android:targetSdkVersion="34" />
+7-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest18143928095417085138.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest18143928095417085138.xml:11:5-15:81
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest18143928095417085138.xml:11:22-76
+11        android:functionalTest="false"
+11-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest18143928095417085138.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest18143928095417085138.xml:13:22-53
+13        android:label="Tests for de.danoeh.antennapod.core.tests"
+13-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest18143928095417085138.xml:15:22-79
+14        android:targetPackage="de.danoeh.antennapod.core.tests" />
+14-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest18143928095417085138.xml:12:22-77
+15
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:8:5-67
+16-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:8:22-64
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:9:5-68
+17-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:9:22-65
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:10:5-79
+18-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:10:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:11:5-76
+19-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:11:22-73
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:12:5-81
+20-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:12:22-78
+21    <uses-permission android:name="android.permission.BLUETOOTH" />
+21-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:13:5-68
+21-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:13:22-65
+22    <uses-permission android:name="android.permission.VIBRATE" />
+22-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:14:5-66
+22-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:14:22-63
+23    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+23-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:15:5-77
+23-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:15:22-74
+24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+24-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:16:5-92
+24-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:16:22-89
+25
+26    <queries>
+26-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:18:5-24:15
+27        <intent>
+27-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:19:9-23:18
+28            <action android:name="android.intent.action.VIEW" />
+28-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:20:13-65
+28-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:20:21-62
+29
+30            <data android:scheme="https" />
+30-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:22:13-44
+30-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:22:19-41
+31        </intent>
+32
+33        <provider
+33-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\66ace1547913088e8a85e8847b9ed809\transformed\app-1.4.0-rc02\AndroidManifest.xml:24:9-27:43
+34            android:name="androidx.car.app.connection.provider"
+34-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\66ace1547913088e8a85e8847b9ed809\transformed\app-1.4.0-rc02\AndroidManifest.xml:25:13-64
+35            android:authorities="androidx.car.app.connection" />
+35-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\66ace1547913088e8a85e8847b9ed809\transformed\app-1.4.0-rc02\AndroidManifest.xml:26:13-62
+36    </queries>
+37
+38    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+38-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+38-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
+39
+40    <permission
+40-->[androidx.core:core:1.13.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\480ceab9fb8c6ace50f3c454d202b599\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+41        android:name="de.danoeh.antennapod.core.tests.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+41-->[androidx.core:core:1.13.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\480ceab9fb8c6ace50f3c454d202b599\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+42        android:protectionLevel="signature" />
+42-->[androidx.core:core:1.13.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\480ceab9fb8c6ace50f3c454d202b599\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+43
+44    <uses-permission android:name="de.danoeh.antennapod.core.tests.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+44-->[androidx.core:core:1.13.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\480ceab9fb8c6ace50f3c454d202b599\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+44-->[androidx.core:core:1.13.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\480ceab9fb8c6ace50f3c454d202b599\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+45
+46    <application
+46-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest18143928095417085138.xml:7:5-9:19
+47        android:allowBackup="true"
+47-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:27:9-35
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.13.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\480ceab9fb8c6ace50f3c454d202b599\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+49        android:debuggable="true"
+50        android:extractNativeLibs="true"
+51        android:icon="@mipmap/ic_launcher"
+51-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:28:9-43
+52        android:supportsRtl="true" >
+52-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:29:9-35
+53        <uses-library android:name="android.test.runner" />
+53-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest18143928095417085138.xml:8:9-60
+53-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest18143928095417085138.xml:8:23-57
+54
+55        <service
+55-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:30:9-41:19
+56            android:name="de.danoeh.antennapod.playback.service.PlaybackService"
+56-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:31:13-81
+57            android:enabled="true"
+57-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:32:13-35
+58            android:exported="true"
+58-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:33:13-36
+59            android:foregroundServiceType="mediaPlayback"
+59-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:34:13-58
+60            android:label="@string/app_name" >
+60-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:35:13-45
+61            <intent-filter>
+61-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:37:13-40:29
+62                <action android:name="android.media.browse.MediaBrowserService" />
+62-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:38:17-83
+62-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:38:25-80
+63                <action android:name="de.danoeh.antennapod.intents.PLAYBACK_SERVICE" />
+63-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:39:17-88
+63-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:39:25-85
+64            </intent-filter>
+65        </service>
+66
+67        <receiver
+67-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:43:9-52:20
+68            android:name="de.danoeh.antennapod.playback.service.MediaButtonReceiver"
+68-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:44:13-85
+69            android:exported="true" >
+69-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:45:13-36
+70            <intent-filter>
+70-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:46:13-48:29
+71                <action android:name="android.intent.action.MEDIA_BUTTON" />
+71-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:47:17-77
+71-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:47:25-74
+72            </intent-filter>
+73            <intent-filter>
+73-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:49:13-51:29
+74                <action android:name="de.danoeh.antennapod.NOTIFY_BUTTON_RECEIVER" />
+74-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:50:17-86
+74-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:50:25-83
+75            </intent-filter>
+76        </receiver>
+77
+78        <service
+78-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:54:9-71:19
+79            android:name="de.danoeh.antennapod.playback.service.QuickSettingsTileService"
+79-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:55:13-90
+80            android:enabled="true"
+80-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:56:13-35
+81            android:exported="true"
+81-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:57:13-36
+82            android:icon="@drawable/ic_notification"
+82-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:58:13-53
+83            android:label="@string/app_name"
+83-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:59:13-45
+84            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+84-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:60:13-77
+85            <intent-filter>
+85-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:61:13-63:29
+86                <action android:name="android.service.quicksettings.action.QS_TILE" />
+86-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:62:17-87
+86-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:62:25-84
+87            </intent-filter>
+88
+89            <meta-data
+89-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:65:13-67:40
+90                android:name="android.service.quicksettings.ACTIVE_TILE"
+90-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:66:17-73
+91                android:value="true" />
+91-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:67:17-37
+92            <meta-data
+92-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:68:13-70:40
+93                android:name="android.service.quicksettings.TOGGLEABLE_TILE"
+93-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:69:17-77
+94                android:value="true" />
+94-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:70:17-37
+95        </service>
+96
+97        <activity
+97-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:8:9-15:20
+98            android:name="de.danoeh.antennapod.ui.widget.WidgetConfigActivity"
+98-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:9:13-79
+99            android:exported="true"
+99-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:10:13-36
+100            android:label="@string/widget_settings" >
+100-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:11:13-52
+101            <intent-filter>
+101-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:12:13-14:29
+102                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+102-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:13:17-87
+102-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:13:25-84
+103            </intent-filter>
+104        </activity>
+105
+106        <receiver
+106-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:17:9-29:20
+107            android:name="de.danoeh.antennapod.ui.widget.PlayerWidget"
+107-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:18:13-71
+108            android:exported="true" >
+108-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:19:13-36
+109            <intent-filter>
+109-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:20:13-24:29
+110                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+110-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:21:17-84
+110-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:21:25-81
+111                <action android:name="de.danoeh.antennapod.FORCE_WIDGET_UPDATE" />
+111-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:22:17-83
+111-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:22:25-80
+112                <action android:name="de.danoeh.antennapod.STOP_WIDGET_UPDATE" />
+112-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:23:17-82
+112-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:23:25-79
+113            </intent-filter>
+114
+115            <meta-data
+115-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:26:13-28:62
+116                android:name="android.appwidget.provider"
+116-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:27:17-58
+117                android:resource="@xml/player_widget_info" />
+117-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:28:17-59
+118        </receiver>
+119
+120        <activity
+120-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\66ace1547913088e8a85e8847b9ed809\transformed\app-1.4.0-rc02\AndroidManifest.xml:31:9-34:75
+121            android:name="androidx.car.app.CarAppPermissionActivity"
+121-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\66ace1547913088e8a85e8847b9ed809\transformed\app-1.4.0-rc02\AndroidManifest.xml:32:13-69
+122            android:exported="false"
+122-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\66ace1547913088e8a85e8847b9ed809\transformed\app-1.4.0-rc02\AndroidManifest.xml:33:13-37
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+123-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\66ace1547913088e8a85e8847b9ed809\transformed\app-1.4.0-rc02\AndroidManifest.xml:34:13-72
+124
+125        <receiver
+125-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\66ace1547913088e8a85e8847b9ed809\transformed\app-1.4.0-rc02\AndroidManifest.xml:36:9-38:40
+126            android:name="androidx.car.app.notification.CarAppNotificationBroadcastReceiver"
+126-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\66ace1547913088e8a85e8847b9ed809\transformed\app-1.4.0-rc02\AndroidManifest.xml:37:13-93
+127            android:exported="false" />
+127-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\66ace1547913088e8a85e8847b9ed809\transformed\app-1.4.0-rc02\AndroidManifest.xml:38:13-37
+128
+129        <provider
+129-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+130            android:name="androidx.startup.InitializationProvider"
+130-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+131            android:authorities="de.danoeh.antennapod.core.tests.androidx-startup"
+131-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+132            android:exported="false" >
+132-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+133            <meta-data
+133-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+134                android:name="androidx.work.WorkManagerInitializer"
+134-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+135                android:value="androidx.startup" />
+135-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+136            <meta-data
+136-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\39b96f6d9ef0efb40d3fca43b6d37d78\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+137                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+137-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\39b96f6d9ef0efb40d3fca43b6d37d78\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+138                android:value="androidx.startup" />
+138-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\39b96f6d9ef0efb40d3fca43b6d37d78\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+139            <meta-data
+139-->[androidx.lifecycle:lifecycle-process:2.6.2] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7187e5e5d77ffdfcba919955c1d90ca4\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+140                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+140-->[androidx.lifecycle:lifecycle-process:2.6.2] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7187e5e5d77ffdfcba919955c1d90ca4\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+141                android:value="androidx.startup" />
+141-->[androidx.lifecycle:lifecycle-process:2.6.2] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7187e5e5d77ffdfcba919955c1d90ca4\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+142            <meta-data
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+143                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+144                android:value="androidx.startup" />
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+145        </provider>
+146
+147        <service
+147-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+148            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+148-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+149            android:directBootAware="false"
+149-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+150            android:enabled="@bool/enable_system_alarm_service_default"
+150-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+151            android:exported="false" />
+151-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+152        <service
+152-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+153            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+153-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+154            android:directBootAware="false"
+154-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+155            android:enabled="@bool/enable_system_job_service_default"
+155-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+156            android:exported="true"
+156-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+157            android:permission="android.permission.BIND_JOB_SERVICE" />
+157-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+158        <service
+158-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+159            android:name="androidx.work.impl.foreground.SystemForegroundService"
+159-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+160            android:directBootAware="false"
+160-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+161            android:enabled="@bool/enable_system_foreground_service_default"
+161-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+162            android:exported="false" />
+162-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+163
+164        <receiver
+164-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+165            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+165-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+166            android:directBootAware="false"
+166-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+167            android:enabled="true"
+167-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+168            android:exported="false" />
+168-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+169        <receiver
+169-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+170            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+170-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+171            android:directBootAware="false"
+171-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+172            android:enabled="false"
+172-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+173            android:exported="false" >
+173-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+174            <intent-filter>
+174-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+175                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+175-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+175-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+176                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+176-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+176-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+177            </intent-filter>
+178        </receiver>
+179        <receiver
+179-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+180            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+180-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+181            android:directBootAware="false"
+181-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+182            android:enabled="false"
+182-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+183            android:exported="false" >
+183-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+184            <intent-filter>
+184-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+185                <action android:name="android.intent.action.BATTERY_OKAY" />
+185-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+185-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+186                <action android:name="android.intent.action.BATTERY_LOW" />
+186-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+186-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+187            </intent-filter>
+188        </receiver>
+189        <receiver
+189-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+190            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+190-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+191            android:directBootAware="false"
+191-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+192            android:enabled="false"
+192-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+193            android:exported="false" >
+193-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+194            <intent-filter>
+194-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+195                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+195-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+195-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+196                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+196-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+196-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+197            </intent-filter>
+198        </receiver>
+199        <receiver
+199-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+200            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+200-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+201            android:directBootAware="false"
+201-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+202            android:enabled="false"
+202-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+203            android:exported="false" >
+203-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+204            <intent-filter>
+204-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+205                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+205-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+205-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+206            </intent-filter>
+207        </receiver>
+208        <receiver
+208-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+209            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+209-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+210            android:directBootAware="false"
+210-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+211            android:enabled="false"
+211-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+212            android:exported="false" >
+212-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+213            <intent-filter>
+213-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+214                <action android:name="android.intent.action.BOOT_COMPLETED" />
+214-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+214-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+215                <action android:name="android.intent.action.TIME_SET" />
+215-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+215-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+216                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+216-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+216-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+217            </intent-filter>
+218        </receiver>
+219        <receiver
+219-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+220            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+220-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+221            android:directBootAware="false"
+221-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+222            android:enabled="@bool/enable_system_alarm_service_default"
+222-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+223            android:exported="false" >
+223-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+224            <intent-filter>
+224-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+225                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+225-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+225-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+226            </intent-filter>
+227        </receiver>
+228        <receiver
+228-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+229            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+229-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+230            android:directBootAware="false"
+230-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+231            android:enabled="true"
+231-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+232            android:exported="true"
+232-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+233            android:permission="android.permission.DUMP" >
+233-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+234            <intent-filter>
+234-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+235                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+235-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+235-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\0b68266e45aeae03699860684e059147\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+236            </intent-filter>
+237        </receiver>
+238        <receiver
+238-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+239            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+239-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+240            android:directBootAware="false"
+240-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+241            android:enabled="true"
+241-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+242            android:exported="true"
+242-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+243            android:permission="android.permission.DUMP" >
+243-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+244            <intent-filter>
+244-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+245                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+245-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+245-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+246            </intent-filter>
+247            <intent-filter>
+247-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+248                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+248-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+248-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+249            </intent-filter>
+250            <intent-filter>
+250-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+251                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+251-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+251-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+252            </intent-filter>
+253            <intent-filter>
+253-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+254                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+254-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+254-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7b17f0d0673e69c6e19acbefd39fad74\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+255            </intent-filter>
+256        </receiver>
+257
+258        <service
+258-->[androidx.room:room-runtime:2.2.5] D:\AndroidStudioSetup\.gradle\caches\transforms-4\25d29a2a985b95edca067c7d5363ff9b\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+259            android:name="androidx.room.MultiInstanceInvalidationService"
+259-->[androidx.room:room-runtime:2.2.5] D:\AndroidStudioSetup\.gradle\caches\transforms-4\25d29a2a985b95edca067c7d5363ff9b\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+260            android:directBootAware="true"
+260-->[androidx.room:room-runtime:2.2.5] D:\AndroidStudioSetup\.gradle\caches\transforms-4\25d29a2a985b95edca067c7d5363ff9b\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+261            android:exported="false" />
+261-->[androidx.room:room-runtime:2.2.5] D:\AndroidStudioSetup\.gradle\caches\transforms-4\25d29a2a985b95edca067c7d5363ff9b\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+262    </application>
+263
+264</manifest>

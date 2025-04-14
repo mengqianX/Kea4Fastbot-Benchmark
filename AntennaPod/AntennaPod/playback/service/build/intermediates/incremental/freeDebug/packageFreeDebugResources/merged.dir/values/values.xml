@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="notification_playing" type="id"/>
+    <item name="notification_streaming_confirmation" type="id"/>
+    <string name="app_name" translatable="false">AntennaPod Debug</string>
+</resources>

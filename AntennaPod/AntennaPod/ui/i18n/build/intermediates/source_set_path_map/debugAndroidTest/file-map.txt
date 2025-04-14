@@ -1,0 +1,5 @@
+de.danoeh.antennapod.ui.i18n.test.i18n-androidTest-0 D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\i18n\build\generated\res\resValues\androidTest\debug
+de.danoeh.antennapod.ui.i18n.test.i18n-mergeDebugAndroidTestResources-1 D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\i18n\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+de.danoeh.antennapod.ui.i18n.test.i18n-mergeDebugAndroidTestResources-2 D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\i18n\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+de.danoeh.antennapod.ui.i18n.test.i18n-merged_res-3 D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\i18n\build\intermediates\merged_res\debugAndroidTest
+de.danoeh.antennapod.ui.i18n.test.i18n-packaged_res-4 D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\ui\i18n\build\intermediates\packaged_res\debug

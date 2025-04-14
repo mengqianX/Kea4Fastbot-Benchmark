@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="notification_id_backup_error" type="id"/>
+    <item name="pending_intent_backup_error" type="id"/>
+    <string name="app_name" translatable="false">AntennaPod Debug</string>
+</resources>

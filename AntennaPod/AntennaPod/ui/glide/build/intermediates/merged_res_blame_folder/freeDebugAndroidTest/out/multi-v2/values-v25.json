@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "de.danoeh.antennapod.ui.glide.test.glide-mergeFreeDebugAndroidTestResources-26:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "D:\\AndroidStudioSetup\\.gradle\\caches\\transforms-4\\4f997712a97d9aa15c3a9f3f43295a4b\\transformed\\appcompat-1.5.1\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

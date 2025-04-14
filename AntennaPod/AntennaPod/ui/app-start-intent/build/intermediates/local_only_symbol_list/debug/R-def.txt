@@ -1,0 +1,14 @@
+R_DEF: Internal format may change without notice
+local
+id pending_intent_allow_stream_always
+id pending_intent_allow_stream_this_time
+id pending_intent_download_cancel_all
+id pending_intent_download_service_auth
+id pending_intent_download_service_autodownload_report
+id pending_intent_download_service_notification
+id pending_intent_download_service_report
+id pending_intent_download_service_retry
+id pending_intent_playback_speed
+id pending_intent_player_activity
+id pending_intent_video_player
+string app_name

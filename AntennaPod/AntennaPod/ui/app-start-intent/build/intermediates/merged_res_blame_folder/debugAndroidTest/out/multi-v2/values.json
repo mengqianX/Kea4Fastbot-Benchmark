@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "de.danoeh.antennapod.ui.appstartintent.test.app-start-intent-mergeDebugAndroidTestResources-1:/values/values.xml",
+            "map": [
+                {
+                    "source": "D:\\GitHubRepo\\themis\\HybirdDroid\\projects\\AntennaPod\\ui\\app-start-intent\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,119,186,250,316,397,471,539,606,665,725",
+                        "endColumns": "63,66,63,65,80,73,67,66,58,59,56",
+                        "endOffsets": "114,181,245,311,392,466,534,601,660,720,777"
+                    }
+                },
+                {
+                    "source": "D:\\GitHubRepo\\themis\\HybirdDroid\\projects\\AntennaPod\\ui\\app-start-intent\\build\\generated\\res\\resValues\\androidTest\\debug\\values\\gradleResValues.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "161",
+                        "endColumns": "74",
+                        "endOffsets": "231"
+                    },
+                    "to": {
+                        "startLines": "13",
+                        "startColumns": "4",
+                        "startOffsets": "782",
+                        "endColumns": "74",
+                        "endOffsets": "852"
+                    }
+                }
+            ]
+        }
+    ]
+}
