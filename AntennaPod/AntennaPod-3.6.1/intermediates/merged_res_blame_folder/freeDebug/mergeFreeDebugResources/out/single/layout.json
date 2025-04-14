@@ -1,0 +1,286 @@
+[
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/transcript_item.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/transcript_item.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/horizontal_feed_item.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/horizontal_feed_item.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/secondary_action.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/secondary_action.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/edit_tags_dialog.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/edit_tags_dialog.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/empty_view_layout.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/empty_view_layout.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/subscription_list_item.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/subscription_list_item.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/speed_select_dialog.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/speed_select_dialog.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/single_tag_text_view.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/single_tag_text_view.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/rating_dialog.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/rating_dialog.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/checkbox_do_not_show_again.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/checkbox_do_not_show_again.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/more_content_list_footer.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/more_content_list_footer.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/time_dialog.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/time_dialog.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/queue_fragment.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/queue_fragment.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/home_section_echo.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/home_section_echo.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/sort_dialog_item_active.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/sort_dialog_item_active.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/feeditemlist_header.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/feeditemlist_header.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/ellipsize_start_listitem.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/ellipsize_start_listitem.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/onlinefeedview_activity.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/onlinefeedview_activity.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/audioplayer_fragment.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/audioplayer_fragment.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/swipeactions_row.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/swipeactions_row.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/nav_listitem.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/nav_listitem.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/opml_selection.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/opml_selection.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/feeditem_pager_fragment.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/feeditem_pager_fragment.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/popup_bubble_view.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/popup_bubble_view.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/feeditem_fragment.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/feeditem_fragment.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/nav_section_item.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/nav_section_item.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/swipeactions_picker.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/swipeactions_picker.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/feed_item_list_fragment.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/feed_item_list_fragment.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/feeditemlist_item.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/feeditemlist_item.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/simple_list_item_multiple_choice_on_start.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/simple_list_item_multiple_choice_on_start.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/home_fragment.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/home_fragment.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/filter_dialog_row.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/filter_dialog_row.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/addfeed.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/addfeed.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/sort_dialog.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/sort_dialog.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/bug_report.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/bug_report.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/item_description_fragment.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/item_description_fragment.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/subscription_grid_item.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/subscription_grid_item.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/simplechapter_item.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/simplechapter_item.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/feedsettings.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/feedsettings.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/swipeactions_picker_item.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/swipeactions_picker_item.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/playback_speed_seek_bar.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/playback_speed_seek_bar.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/download_log_fragment.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/download_log_fragment.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/playback_speed_feed_setting_dialog.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/playback_speed_feed_setting_dialog.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/horizontal_itemlist_item.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/horizontal_itemlist_item.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/sort_dialog_item.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/sort_dialog_item.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/episodes_list_fragment.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/episodes_list_fragment.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/subscription_selection_activity.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/subscription_selection_activity.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/simple_list_fragment.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/simple_list_fragment.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/transcript_dialog.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/transcript_dialog.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/fragment_subscriptions.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/fragment_subscriptions.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/home_section.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/home_section.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/filter_dialog.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/filter_dialog.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/videoplayer_activity.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/videoplayer_activity.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/cover_fragment.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/cover_fragment.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/downloadlog_item.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/downloadlog_item.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/reorder_dialog_entry.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/reorder_dialog_entry.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/share_episode_dialog.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/share_episode_dialog.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/edit_text_dialog.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/edit_text_dialog.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/floating_select_menu.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/floating_select_menu.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/floating_select_menu_item.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/floating_select_menu_item.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/bottom_navigation_more_listitem.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/bottom_navigation_more_listitem.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/audio_controls.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/audio_controls.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/reorder_dialog.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/reorder_dialog.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/external_player_fragment.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/external_player_fragment.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/feed_pref_skip_dialog.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/feed_pref_skip_dialog.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/search_fragment.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/search_fragment.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/swipeactions_dialog.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/swipeactions_dialog.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/episode_filter_dialog.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/episode_filter_dialog.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/reorder_dialog_header.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/reorder_dialog_header.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/feedinfo.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/feedinfo.xml"
+    },
+    {
+        "merged": "de.danoeh.antennapod.app-mergeFreeDebugResources-49:/layout/nav_list.xml",
+        "source": "de.danoeh.antennapod.app-main-54:/layout/nav_list.xml"
+    }
+]

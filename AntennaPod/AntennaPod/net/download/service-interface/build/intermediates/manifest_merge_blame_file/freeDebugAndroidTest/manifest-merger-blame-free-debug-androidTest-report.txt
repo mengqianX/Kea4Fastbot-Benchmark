@@ -1,0 +1,68 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="de.danoeh.antennapod.core.tests" >
+4
+5    <uses-sdk
+5-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service-interface\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest9883885512067132087.xml:5:5-74
+6        android:minSdkVersion="21"
+6-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service-interface\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest9883885512067132087.xml:5:15-41
+7        android:targetSdkVersion="34" />
+7-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service-interface\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest9883885512067132087.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service-interface\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest9883885512067132087.xml:11:5-15:81
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service-interface\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest9883885512067132087.xml:11:22-76
+11        android:functionalTest="false"
+11-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service-interface\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest9883885512067132087.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service-interface\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest9883885512067132087.xml:13:22-53
+13        android:label="Tests for de.danoeh.antennapod.core.tests"
+13-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service-interface\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest9883885512067132087.xml:15:22-79
+14        android:targetPackage="de.danoeh.antennapod.core.tests" />
+14-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service-interface\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest9883885512067132087.xml:12:22-77
+15
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[:net:common] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\common\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:7:5-67
+16-->[:net:common] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\common\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:7:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[:net:common] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\common\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:8:5-79
+17-->[:net:common] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\common\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:8:22-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[:net:common] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\common\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:9:5-76
+18-->[:net:common] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\common\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:9:22-73
+19
+20    <application
+20-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service-interface\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest9883885512067132087.xml:7:5-9:19
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.8.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\565708f8650964a30121927222ce9db6\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="true" >
+24        <uses-library android:name="android.test.runner" />
+24-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service-interface\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest9883885512067132087.xml:8:9-60
+24-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service-interface\build\intermediates\tmp\manifest\androidTest\free\debug\tempFile1ProcessTestManifest9883885512067132087.xml:8:23-57
+25
+26        <provider
+26-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\39b96f6d9ef0efb40d3fca43b6d37d78\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+27            android:name="androidx.startup.InitializationProvider"
+27-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\39b96f6d9ef0efb40d3fca43b6d37d78\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+28            android:authorities="de.danoeh.antennapod.core.tests.androidx-startup"
+28-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\39b96f6d9ef0efb40d3fca43b6d37d78\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+29            android:exported="false" >
+29-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\39b96f6d9ef0efb40d3fca43b6d37d78\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+30            <meta-data
+30-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\39b96f6d9ef0efb40d3fca43b6d37d78\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+31                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+31-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\39b96f6d9ef0efb40d3fca43b6d37d78\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+32                android:value="androidx.startup" />
+32-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\39b96f6d9ef0efb40d3fca43b6d37d78\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+33            <meta-data
+33-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\ab4508051bd75a32f8598cc1beec09d2\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+34                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+34-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\ab4508051bd75a32f8598cc1beec09d2\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+35                android:value="androidx.startup" />
+35-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\ab4508051bd75a32f8598cc1beec09d2\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+36        </provider>
+37    </application>
+38
+39</manifest>

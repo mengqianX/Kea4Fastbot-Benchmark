@@ -1,0 +1,1124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="de.danoeh.antennapod.debug"
+4    android:installLocation="auto"
+5    android:versionCode="3060195"
+6    android:versionName="3.6.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+10        android:targetSdkVersion="34" />
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:6:5-66
+12-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:7:5-67
+13-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:7:22-65
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:8:5-78
+14-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:9:5-76
+15-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:9:22-74
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:10:5-76
+16-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:10:22-74
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:11:5-76
+17-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:11:22-73
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:12:5-81
+18-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.BLUETOOTH" />
+19-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:13:5-68
+19-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:13:22-65
+20    <uses-permission android:name="android.permission.VIBRATE" />
+20-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:14:5-66
+20-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:14:22-63
+21
+22    <supports-screens
+22-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:16:5-21:39
+23        android:anyDensity="true"
+23-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:17:9-34
+24        android:largeScreens="true"
+24-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:18:9-36
+25        android:normalScreens="true"
+25-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:19:9-37
+26        android:smallScreens="true"
+26-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:20:9-36
+27        android:xlargeScreens="true" />
+27-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:21:9-37
+28
+29    <uses-feature
+29-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:23:5-25:35
+30        android:name="android.hardware.screen.portrait"
+30-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:24:9-56
+31        android:required="false" />
+31-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:25:9-33
+32    <uses-feature
+32-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:26:5-28:35
+33        android:name="android.hardware.touchscreen"
+33-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:27:9-52
+34        android:required="false" />
+34-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:28:9-33
+35
+36    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+36-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:16:5-92
+36-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:16:22-89
+37
+38    <queries>
+38-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:18:5-24:15
+39        <intent>
+39-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:19:9-23:18
+40            <action android:name="android.intent.action.VIEW" />
+40-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:103:17-69
+40-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:103:25-66
+41
+42            <data android:scheme="https" />
+42-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+42-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:111:21-43
+43        </intent>
+44
+45        <provider
+45-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\165900cf3d867db76775398382262784\transformed\app-1.4.0-rc02\AndroidManifest.xml:24:9-27:43
+46            android:name="androidx.car.app.connection.provider"
+46-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\165900cf3d867db76775398382262784\transformed\app-1.4.0-rc02\AndroidManifest.xml:25:13-64
+47            android:authorities="androidx.car.app.connection" />
+47-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\165900cf3d867db76775398382262784\transformed\app-1.4.0-rc02\AndroidManifest.xml:26:13-62
+48    </queries>
+49
+50    <permission
+50-->[androidx.core:core:1.13.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\f19855e6a48e52820819cb96a6c13813\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+51        android:name="de.danoeh.antennapod.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+51-->[androidx.core:core:1.13.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\f19855e6a48e52820819cb96a6c13813\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+52        android:protectionLevel="signature" />
+52-->[androidx.core:core:1.13.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\f19855e6a48e52820819cb96a6c13813\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+53
+54    <uses-permission android:name="de.danoeh.antennapod.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+54-->[androidx.core:core:1.13.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\f19855e6a48e52820819cb96a6c13813\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+54-->[androidx.core:core:1.13.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\f19855e6a48e52820819cb96a6c13813\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+55
+56    <application
+56-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:30:5-304:19
+57        android:name="de.danoeh.antennapod.PodcastApp"
+57-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:31:9-55
+58        android:allowAudioPlaybackCapture="true"
+58-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:42:9-49
+59        android:allowBackup="true"
+59-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:14:9-35
+60        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+60-->[androidx.core:core:1.13.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\f19855e6a48e52820819cb96a6c13813\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+61        android:backupAgent="de.danoeh.antennapod.storage.importexport.OpmlBackupAgent"
+61-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:35:9-68
+62        android:debuggable="true"
+63        android:extractNativeLibs="true"
+64        android:icon="@mipmap/ic_launcher"
+64-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:32:9-43
+65        android:label="@string/app_name"
+65-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:34:9-41
+66        android:localeConfig="@xml/locale_config"
+66-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:43:9-50
+67        android:logo="@mipmap/ic_launcher"
+67-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:40:9-43
+68        android:networkSecurityConfig="@xml/network_security_config"
+68-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:44:9-69
+69        android:resizeableActivity="true"
+69-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:41:9-42
+70        android:restoreAnyVersion="true"
+70-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:36:9-41
+71        android:roundIcon="@mipmap/ic_launcher"
+71-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:33:9-48
+72        android:supportsRtl="true"
+72-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:39:9-35
+73        android:theme="@style/Theme.AntennaPod.Splash"
+73-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:37:9-55
+74        android:usesCleartextTraffic="true" >
+74-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:38:9-44
+75        <activity
+75-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:46:9-56:20
+76            android:name="de.danoeh.antennapod.ui.screen.playback.PlaybackSpeedDialogActivity"
+76-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:47:13-75
+77            android:excludeFromRecents="true"
+77-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:50:13-46
+78            android:exported="false"
+78-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:49:13-37
+79            android:noHistory="true"
+79-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:48:13-37
+80            android:theme="@style/Theme.AntennaPod.Splash.Translucent" >
+80-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:51:13-71
+81            <intent-filter>
+81-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:52:13-55:29
+82                <action android:name="de.danoeh.antennapod.intents.PLAYBACK_SPEED" />
+82-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:53:17-86
+82-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:53:25-83
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:17-75
+84-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:27-73
+85            </intent-filter>
+86        </activity>
+87
+88        <meta-data
+88-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:58:9-59:35
+89            android:name="android.webkit.WebView.MetricsOptOut"
+89-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:58:20-71
+90            android:value="true" />
+90-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:59:13-33
+91        <meta-data
+91-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:60:9-61:59
+92            android:name="com.google.android.gms.car.notification.SmallIcon"
+92-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:60:20-84
+93            android:resource="@drawable/ic_notification" />
+93-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:61:13-57
+94        <meta-data
+94-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:62:9-64:58
+95            android:name="com.google.android.gms.car.application"
+95-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:63:13-66
+96            android:resource="@xml/automotive_app_desc" />
+96-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:64:13-56
+97        <meta-data
+97-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:65:9-67:81
+98            android:name="com.google.android.backup.api_key"
+98-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:66:13-61
+99            android:value="AEdPqrEAAAAI3a05VToCTlqBymJrbFGaKQMvF-bBAuLsOdavBA" />
+99-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:67:13-79
+100        <meta-data
+100-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:68:9-70:86
+101            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+101-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:69:13-93
+102            android:value="de.danoeh.antennapod.playback.cast.CastOptionsProvider" />
+102-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:70:13-83
+103
+104        <!-- Version < 3.0. DeX Mode and Screen Mirroring support -->
+105        <meta-data
+105-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:73:9-95
+106            android:name="com.samsung.android.keepalive.density"
+106-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:73:20-72
+107            android:value="true" />
+107-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:73:73-93
+108        <!-- Version >= 3.0. DeX Dual Mode support -->
+109        <meta-data
+109-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:75:9-109
+110            android:name="com.samsung.android.multidisplay.keep_process_alive"
+110-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:75:20-86
+111            android:value="true" />
+111-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:75:87-107
+112
+113        <activity
+113-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:77:9-94:20
+114            android:name="de.danoeh.antennapod.activity.SplashActivity"
+114-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:78:13-52
+115            android:configChanges="keyboardHidden|orientation|screenSize"
+115-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:79:13-74
+116            android:exported="true" >
+116-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:80:13-36
+117            <intent-filter>
+117-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:81:13-89:29
+118                <action android:name="android.intent.action.MAIN" />
+118-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:82:17-69
+118-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:82:25-66
+119                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+119-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:83:17-86
+119-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:83:25-83
+120                <action android:name="android.intent.action.MUSIC_PLAYER" />
+120-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:84:17-77
+120-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:84:25-74
+121
+122                <category android:name="android.intent.category.DEFAULT" />
+122-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:17-75
+122-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:27-73
+123                <category android:name="android.intent.category.LAUNCHER" />
+123-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:87:17-77
+123-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:87:27-74
+124                <category android:name="android.intent.category.APP_MUSIC" />
+124-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:88:17-78
+124-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:88:27-75
+125            </intent-filter>
+126
+127            <meta-data
+127-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:91:13-93:53
+128                android:name="android.app.shortcuts"
+128-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:92:17-53
+129                android:resource="@xml/shortcuts" />
+129-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:93:17-50
+130        </activity>
+131        <activity
+131-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:96:9-129:20
+132            android:name="de.danoeh.antennapod.activity.MainActivity"
+132-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:97:13-50
+133            android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|density|uiMode|keyboard|navigation"
+133-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:98:13-141
+134            android:exported="true"
+134-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:101:13-36
+135            android:launchMode="singleTask"
+135-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:100:13-44
+136            android:windowSoftInputMode="stateAlwaysHidden" >
+136-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:99:13-60
+137            <intent-filter>
+137-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:102:13-112:29
+138                <action android:name="android.intent.action.VIEW" />
+138-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:103:17-69
+138-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:103:25-66
+139
+140                <category android:name="android.intent.category.DEFAULT" />
+140-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:17-75
+140-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:27-73
+141                <category android:name="android.intent.category.BROWSABLE" />
+141-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:106:17-78
+141-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:106:27-75
+142
+143                <data
+143-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+144                    android:host="antennapod.org"
+144-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:109:21-50
+145                    android:pathPrefix="/deeplink/main"
+145-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:110:21-56
+146                    android:scheme="https" />
+146-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:111:21-43
+147            </intent-filter>
+148            <intent-filter>
+148-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:113:13-123:29
+149                <action android:name="android.intent.action.VIEW" />
+149-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:103:17-69
+149-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:103:25-66
+150
+151                <category android:name="android.intent.category.DEFAULT" />
+151-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:17-75
+151-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:27-73
+152                <category android:name="android.intent.category.BROWSABLE" />
+152-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:106:17-78
+152-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:106:27-75
+153
+154                <data
+154-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+155                    android:host="antennapod.org"
+155-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:109:21-50
+156                    android:pathPrefix="/deeplink/search"
+156-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:110:21-56
+157                    android:scheme="https" />
+157-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:111:21-43
+158            </intent-filter>
+159            <intent-filter>
+159-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:124:13-128:29
+160                <category android:name="android.intent.category.DEFAULT" />
+160-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:17-75
+160-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:27-73
+161
+162                <action android:name="de.danoeh.antennapod.intents.MAIN_ACTIVITY" />
+162-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:126:17-85
+162-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:126:25-82
+163                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+163-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:127:17-98
+163-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:127:25-96
+164            </intent-filter>
+165        </activity>
+166        <activity
+166-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:131:9-143:20
+167            android:name="de.danoeh.antennapod.ui.screen.preferences.PreferenceActivity"
+167-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:132:13-69
+168            android:configChanges="keyboardHidden|orientation|screenSize"
+168-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:133:13-74
+169            android:enableOnBackInvokedCallback="true"
+169-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:135:13-55
+170            android:exported="false"
+170-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:134:13-37
+171            android:label="@string/settings_label" >
+171-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:136:13-51
+172            <meta-data
+172-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:137:13-139:77
+173                android:name="android.support.PARENT_ACTIVITY"
+173-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:138:17-63
+174                android:value="de.danoeh.antennapod.activity.MainActivity" />
+174-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:139:17-75
+175
+176            <intent-filter>
+176-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:140:13-142:29
+177                <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
+177-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:141:17-88
+177-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:141:25-85
+178            </intent-filter>
+179        </activity>
+180        <activity
+180-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:145:9-166:20
+181            android:name="de.danoeh.antennapod.activity.OpmlImportActivity"
+181-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:146:13-56
+182            android:configChanges="keyboardHidden|orientation|screenSize"
+182-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:147:13-74
+183            android:exported="true"
+183-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:149:13-36
+184            android:label="@string/opml_import_label" >
+184-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:148:13-54
+185            <intent-filter>
+185-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:150:13-165:29
+186                <action android:name="android.intent.action.VIEW" />
+186-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:103:17-69
+186-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:103:25-66
+187                <action android:name="android.intent.action.SEND" />
+187-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:152:17-68
+187-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:152:25-66
+188
+189                <category android:name="android.intent.category.DEFAULT" />
+189-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:17-75
+189-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:27-73
+190                <category android:name="android.intent.category.BROWSABLE" />
+190-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:106:17-78
+190-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:106:27-75
+191
+192                <data android:mimeType="text/xml" />
+192-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+192-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:157:23-50
+193                <data android:mimeType="text/x-opml" />
+193-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+193-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:157:23-50
+194                <data android:mimeType="application/xml" />
+194-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+194-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:157:23-50
+195                <data android:scheme="file" />
+195-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+195-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:111:21-43
+196                <data android:scheme="content" />
+196-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+196-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:111:21-43
+197                <data android:scheme="http" />
+197-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+197-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:111:21-43
+198                <data android:scheme="https" />
+198-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+198-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:111:21-43
+199            </intent-filter>
+200        </activity>
+201        <activity
+201-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:167:9-174:20
+202            android:name="de.danoeh.antennapod.ui.screen.preferences.BugReportActivity"
+202-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:168:13-68
+203            android:enableOnBackInvokedCallback="true"
+203-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:169:13-55
+204            android:label="@string/bug_report_title" >
+204-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:170:13-53
+205            <meta-data
+205-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:137:13-139:77
+206                android:name="android.support.PARENT_ACTIVITY"
+206-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:138:17-63
+207                android:value="de.danoeh.antennapod.ui.screen.preferences.PreferenceActivity" />
+207-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:139:17-75
+208        </activity>
+209        <activity
+209-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:176:9-189:20
+210            android:name="de.danoeh.antennapod.ui.screen.playback.video.VideoplayerActivity"
+210-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:177:13-73
+211            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+211-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:178:13-106
+212            android:exported="false"
+212-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:181:13-37
+213            android:screenOrientation="sensorLandscape"
+213-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:180:13-56
+214            android:supportsPictureInPicture="true" >
+214-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:179:13-52
+215            <meta-data
+215-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:137:13-139:77
+216                android:name="android.support.PARENT_ACTIVITY"
+216-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:138:17-63
+217                android:value="de.danoeh.antennapod.activity.MainActivity" />
+217-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:139:17-75
+218
+219            <intent-filter>
+219-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:185:13-188:29
+220                <action android:name="de.danoeh.antennapod.intents.VIDEO_PLAYER" />
+220-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:186:17-84
+220-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:186:25-81
+221
+222                <category android:name="android.intent.category.DEFAULT" />
+222-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:17-75
+222-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:27-73
+223            </intent-filter>
+224        </activity>
+225        <activity
+225-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:191:9-264:20
+226            android:name="de.danoeh.antennapod.ui.screen.onlinefeedview.OnlineFeedViewActivity"
+226-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:192:13-76
+227            android:configChanges="orientation|screenSize"
+227-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:193:13-59
+228            android:exported="true"
+228-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:196:13-36
+229            android:label="@string/add_feed_label"
+229-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:195:13-51
+230            android:theme="@style/Theme.AntennaPod.Splash.Translucent" >
+230-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:194:13-71
+231            <meta-data
+231-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:137:13-139:77
+232                android:name="android.support.PARENT_ACTIVITY"
+232-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:138:17-63
+233                android:value="de.danoeh.antennapod.activity.MainActivity" />
+233-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:139:17-75
+234
+235            <!-- Files with mimeType rss/xml/atom -->
+236            <intent-filter>
+236-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:202:13-214:29
+237                <action android:name="android.intent.action.VIEW" />
+237-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:103:17-69
+237-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:103:25-66
+238
+239                <category android:name="android.intent.category.DEFAULT" />
+239-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:17-75
+239-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:27-73
+240                <category android:name="android.intent.category.BROWSABLE" />
+240-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:106:17-78
+240-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:106:27-75
+241
+242                <data android:scheme="http" />
+242-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+242-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:111:21-43
+243                <data android:scheme="https" />
+243-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+243-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:111:21-43
+244                <data android:mimeType="text/xml" />
+244-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+244-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:157:23-50
+245                <data android:mimeType="application/rss+xml" />
+245-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+245-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:157:23-50
+246                <data android:mimeType="application/atom+xml" />
+246-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+246-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:157:23-50
+247                <data android:mimeType="application/xml" />
+247-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+247-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:157:23-50
+248            </intent-filter>
+249
+250            <!-- Podcast protocols -->
+251            <intent-filter>
+251-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:217:13-227:29
+252                <action android:name="android.intent.action.VIEW" />
+252-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:103:17-69
+252-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:103:25-66
+253
+254                <category android:name="android.intent.category.DEFAULT" />
+254-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:17-75
+254-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:27-73
+255                <category android:name="android.intent.category.BROWSABLE" />
+255-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:106:17-78
+255-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:106:27-75
+256
+257                <data android:scheme="itpc" />
+257-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+257-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:111:21-43
+258                <data android:scheme="pcast" />
+258-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+258-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:111:21-43
+259                <data android:scheme="feed" />
+259-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+259-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:111:21-43
+260                <data android:scheme="antennapod-subscribe" />
+260-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+260-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:111:21-43
+261            </intent-filter>
+262            <intent-filter android:autoVerify="true" >
+262-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:229:13-239:29
+262-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:229:28-53
+263                <action android:name="android.intent.action.VIEW" />
+263-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:103:17-69
+263-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:103:25-66
+264
+265                <category android:name="android.intent.category.DEFAULT" />
+265-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:17-75
+265-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:27-73
+266                <category android:name="android.intent.category.BROWSABLE" />
+266-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:106:17-78
+266-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:106:27-75
+267
+268                <data android:host="antennapod.org" />
+268-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+268-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:109:21-50
+269                <data android:pathPrefix="/deeplink/subscribe" />
+269-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+269-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:110:21-56
+270                <data android:scheme="http" />
+270-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+270-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:111:21-43
+271                <data android:scheme="https" />
+271-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+271-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:111:21-43
+272            </intent-filter>
+273            <intent-filter android:autoVerify="true" >
+273-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:241:13-250:29
+273-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:241:28-53
+274                <action android:name="android.intent.action.VIEW" />
+274-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:103:17-69
+274-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:103:25-66
+275
+276                <category android:name="android.intent.category.DEFAULT" />
+276-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:17-75
+276-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:27-73
+277                <category android:name="android.intent.category.BROWSABLE" />
+277-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:106:17-78
+277-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:106:27-75
+278
+279                <data android:pathPattern="/.*\\..*/.*" />
+279-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+279-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:247:23-56
+280                <data android:host="www.subscribeonandroid.com" />
+280-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+280-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:109:21-50
+281                <data android:scheme="https" />
+281-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+281-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:111:21-43
+282            </intent-filter>
+283            <intent-filter>
+283-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:252:13-258:29
+284                <action android:name="android.intent.action.SEND" />
+284-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:152:17-68
+284-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:152:25-66
+285
+286                <category android:name="android.intent.category.DEFAULT" />
+286-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:17-75
+286-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:27-73
+287
+288                <data android:mimeType="text/plain" />
+288-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:108:17-111:46
+288-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:157:23-50
+289            </intent-filter>
+290            <intent-filter>
+290-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:260:13-263:29
+291                <category android:name="android.intent.category.DEFAULT" />
+291-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:17-75
+291-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:27-73
+292
+293                <action android:name="de.danoeh.antennapod.intents.ONLINE_FEEDVIEW" />
+293-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:262:17-87
+293-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:262:25-84
+294            </intent-filter>
+295        </activity>
+296        <activity
+296-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:266:9-274:20
+297            android:name="de.danoeh.antennapod.activity.SelectSubscriptionActivity"
+297-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:266:19-70
+298            android:exported="true"
+298-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:270:13-36
+299            android:icon="@drawable/ic_shortcut_subscriptions"
+299-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:268:13-63
+300            android:label="@string/shortcut_subscription_label"
+300-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:267:13-64
+301            android:theme="@style/Theme.AntennaPod.Splash.Translucent" >
+301-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:269:13-71
+302            <intent-filter>
+302-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:271:13-273:29
+303                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+303-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:272:17-80
+303-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:272:25-77
+304            </intent-filter>
+305        </activity>
+306
+307        <receiver
+307-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:276:9-282:20
+308            android:name="de.danoeh.antennapod.spa.SPAReceiver"
+308-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:277:13-44
+309            android:exported="true" >
+309-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:278:13-36
+310            <intent-filter>
+310-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:279:13-281:29
+311                <action android:name="de.danoeh.antennapdsp.intent.SP_APPS_QUERY_FEEDS_RESPONSE" />
+311-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:280:17-99
+311-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:280:25-97
+312            </intent-filter>
+313        </receiver>
+314
+315        <provider
+315-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:284:9-292:20
+316            android:name="androidx.core.content.FileProvider"
+316-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:286:13-62
+317            android:authorities="@string/provider_authority"
+317-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:285:13-61
+318            android:exported="false"
+318-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:287:13-37
+319            android:grantUriPermissions="true" >
+319-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:288:13-47
+320            <meta-data
+320-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:289:13-291:57
+321                android:name="android.support.FILE_PROVIDER_PATHS"
+321-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:290:17-67
+322                android:resource="@xml/provider_paths" />
+322-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:291:17-55
+323        </provider>
+324
+325        <meta-data
+325-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:294:9-297:47
+326            android:name="com.google.android.actions"
+326-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:296:13-54
+327            android:resource="@xml/actions" />
+327-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:297:13-44
+328
+329        <receiver
+329-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:298:9-303:20
+330            android:name="de.danoeh.antennapod.jacocoInstrument.SMSInstrumentedReceiver"
+330-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:298:19-75
+331            android:exported="true" >
+331-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:299:17-40
+332            <intent-filter>
+332-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:300:13-302:29
+333                <action android:name="edu.gatech.m3.emma.COLLECT_COVERAGE" />
+333-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:301:17-78
+333-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:301:25-75
+334            </intent-filter>
+335        </receiver>
+336        <receiver
+336-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:16:9-20:47
+337            android:name="de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver"
+337-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:17:13-93
+338            android:exported="true"
+338-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:18:13-36
+339            android:label="@string/feed_update_receiver_name" /> <!-- allow feeds update to be triggered by external apps -->
+339-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:19:13-62
+340        <receiver
+340-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:22:9-30:20
+341            android:name="de.danoeh.antennapod.net.download.service.ConnectivityActionReceiver"
+341-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:23:13-96
+342            android:exported="true" >
+342-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:24:13-36
+343            <intent-filter>
+343-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:25:13-29:29
+344                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+344-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:26:17-28:50
+344-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:27:21-72
+345            </intent-filter>
+346        </receiver>
+347        <receiver
+347-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:31:9-38:20
+348            android:name="de.danoeh.antennapod.net.download.service.PowerConnectionReceiver"
+348-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:32:13-93
+349            android:exported="true" >
+349-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:33:13-36
+350            <intent-filter>
+350-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:34:13-37:29
+351                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+351-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:35:17-87
+351-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:35:25-84
+352                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+352-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:36:17-90
+352-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:36:25-87
+353            </intent-filter>
+354        </receiver>
+355
+356        <service
+356-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:30:9-41:19
+357            android:name="de.danoeh.antennapod.playback.service.PlaybackService"
+357-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:31:13-81
+358            android:enabled="true"
+358-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:32:13-35
+359            android:exported="true"
+359-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:33:13-36
+360            android:foregroundServiceType="mediaPlayback"
+360-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:34:13-58
+361            android:label="@string/app_name" >
+361-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:35:13-45
+362            <intent-filter>
+362-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:37:13-40:29
+363                <action android:name="android.media.browse.MediaBrowserService" />
+363-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:38:17-83
+363-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:38:25-80
+364                <action android:name="de.danoeh.antennapod.intents.PLAYBACK_SERVICE" />
+364-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:39:17-88
+364-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:39:25-85
+365            </intent-filter>
+366        </service>
+367
+368        <receiver
+368-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:43:9-52:20
+369            android:name="de.danoeh.antennapod.playback.service.MediaButtonReceiver"
+369-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:44:13-85
+370            android:exported="true" >
+370-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:45:13-36
+371            <intent-filter>
+371-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:46:13-48:29
+372                <action android:name="android.intent.action.MEDIA_BUTTON" />
+372-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:47:17-77
+372-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:47:25-74
+373            </intent-filter>
+374            <intent-filter>
+374-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:49:13-51:29
+375                <action android:name="de.danoeh.antennapod.NOTIFY_BUTTON_RECEIVER" />
+375-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:50:17-86
+375-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:50:25-83
+376            </intent-filter>
+377        </receiver>
+378
+379        <service
+379-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:54:9-71:19
+380            android:name="de.danoeh.antennapod.playback.service.QuickSettingsTileService"
+380-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:55:13-90
+381            android:enabled="true"
+381-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:56:13-35
+382            android:exported="true"
+382-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:57:13-36
+383            android:icon="@drawable/ic_notification"
+383-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:58:13-53
+384            android:label="@string/app_name"
+384-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:59:13-45
+385            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+385-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:60:13-77
+386            <intent-filter>
+386-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:61:13-63:29
+387                <action android:name="android.service.quicksettings.action.QS_TILE" />
+387-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:62:17-87
+387-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:62:25-84
+388            </intent-filter>
+389
+390            <meta-data
+390-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:65:13-67:40
+391                android:name="android.service.quicksettings.ACTIVE_TILE"
+391-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:66:17-73
+392                android:value="true" />
+392-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:67:17-37
+393            <meta-data
+393-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:68:13-70:40
+394                android:name="android.service.quicksettings.TOGGLEABLE_TILE"
+394-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:69:17-77
+395                android:value="true" />
+395-->[:playback:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\playback\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:70:17-37
+396        </service>
+397
+398        <activity
+398-->[:ui:echo] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\echo\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:12:9-20:20
+399            android:name="de.danoeh.antennapod.ui.echo.EchoActivity"
+399-->[:ui:echo] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\echo\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:13:13-69
+400            android:exported="false"
+400-->[:ui:echo] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\echo\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:14:13-37
+401            android:label="@string/antennapod_echo"
+401-->[:ui:echo] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\echo\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:15:13-52
+402            android:theme="@style/Theme.AntennaPod.Dark.NoTitle" >
+402-->[:ui:echo] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\echo\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:16:13-65
+403            <intent-filter>
+403-->[:ui:echo] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\echo\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:17:13-19:29
+404                <category android:name="android.intent.category.DEFAULT" />
+404-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:17-75
+404-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\app\src\main\AndroidManifest.xml:54:27-73
+405            </intent-filter>
+406        </activity>
+407        <activity
+407-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:8:9-15:20
+408            android:name="de.danoeh.antennapod.ui.widget.WidgetConfigActivity"
+408-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:9:13-79
+409            android:exported="true"
+409-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:10:13-36
+410            android:label="@string/widget_settings" >
+410-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:11:13-52
+411            <intent-filter>
+411-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:12:13-14:29
+412                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+412-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:13:17-87
+412-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:13:25-84
+413            </intent-filter>
+414        </activity>
+415
+416        <receiver
+416-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:17:9-29:20
+417            android:name="de.danoeh.antennapod.ui.widget.PlayerWidget"
+417-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:18:13-71
+418            android:exported="true" >
+418-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:19:13-36
+419            <intent-filter>
+419-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:20:13-24:29
+420                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+420-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:21:17-84
+420-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:21:25-81
+421                <action android:name="de.danoeh.antennapod.FORCE_WIDGET_UPDATE" />
+421-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:22:17-83
+421-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:22:25-80
+422                <action android:name="de.danoeh.antennapod.STOP_WIDGET_UPDATE" />
+422-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:23:17-82
+422-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:23:25-79
+423            </intent-filter>
+424
+425            <meta-data
+425-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:26:13-28:62
+426                android:name="android.appwidget.provider"
+426-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:27:17-58
+427                android:resource="@xml/player_widget_info" />
+427-->[:ui:widget] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\ui\widget\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:28:17-59
+428        </receiver>
+429
+430        <activity
+430-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\165900cf3d867db76775398382262784\transformed\app-1.4.0-rc02\AndroidManifest.xml:31:9-34:75
+431            android:name="androidx.car.app.CarAppPermissionActivity"
+431-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\165900cf3d867db76775398382262784\transformed\app-1.4.0-rc02\AndroidManifest.xml:32:13-69
+432            android:exported="false"
+432-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\165900cf3d867db76775398382262784\transformed\app-1.4.0-rc02\AndroidManifest.xml:33:13-37
+433            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+433-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\165900cf3d867db76775398382262784\transformed\app-1.4.0-rc02\AndroidManifest.xml:34:13-72
+434
+435        <receiver
+435-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\165900cf3d867db76775398382262784\transformed\app-1.4.0-rc02\AndroidManifest.xml:36:9-38:40
+436            android:name="androidx.car.app.notification.CarAppNotificationBroadcastReceiver"
+436-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\165900cf3d867db76775398382262784\transformed\app-1.4.0-rc02\AndroidManifest.xml:37:13-93
+437            android:exported="false" />
+437-->[androidx.car.app:app:1.4.0-rc02] D:\AndroidStudioSetup\.gradle\caches\transforms-4\165900cf3d867db76775398382262784\transformed\app-1.4.0-rc02\AndroidManifest.xml:38:13-37
+438
+439        <provider
+439-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+440            android:name="androidx.startup.InitializationProvider"
+440-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+441            android:authorities="de.danoeh.antennapod.debug.androidx-startup"
+441-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+442            android:exported="false" >
+442-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+443            <meta-data
+443-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+444                android:name="androidx.work.WorkManagerInitializer"
+444-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+445                android:value="androidx.startup" />
+445-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+446            <meta-data
+446-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\b05af79eaa3f81afa75b863d52713555\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+447                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+447-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\b05af79eaa3f81afa75b863d52713555\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+448                android:value="androidx.startup" />
+448-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidStudioSetup\.gradle\caches\transforms-4\b05af79eaa3f81afa75b863d52713555\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+449            <meta-data
+449-->[androidx.lifecycle:lifecycle-process:2.6.2] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7121931d67dfccb729b87fc8d26ead4c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+450                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+450-->[androidx.lifecycle:lifecycle-process:2.6.2] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7121931d67dfccb729b87fc8d26ead4c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+451                android:value="androidx.startup" />
+451-->[androidx.lifecycle:lifecycle-process:2.6.2] D:\AndroidStudioSetup\.gradle\caches\transforms-4\7121931d67dfccb729b87fc8d26ead4c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+452            <meta-data
+452-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+453                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+453-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+454                android:value="androidx.startup" />
+454-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+455        </provider>
+456
+457        <service
+457-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+458            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+458-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+459            android:directBootAware="false"
+459-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+460            android:enabled="@bool/enable_system_alarm_service_default"
+460-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+461            android:exported="false" />
+461-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+462        <service
+462-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+463            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+463-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+464            android:directBootAware="false"
+464-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+465            android:enabled="@bool/enable_system_job_service_default"
+465-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+466            android:exported="true"
+466-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+467            android:permission="android.permission.BIND_JOB_SERVICE" />
+467-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+468        <service
+468-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+469            android:name="androidx.work.impl.foreground.SystemForegroundService"
+469-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+470            android:directBootAware="false"
+470-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+471            android:enabled="@bool/enable_system_foreground_service_default"
+471-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+472            android:exported="false" />
+472-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+473
+474        <receiver
+474-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+475            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+475-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+476            android:directBootAware="false"
+476-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+477            android:enabled="true"
+477-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+478            android:exported="false" />
+478-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+479        <receiver
+479-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+480            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+480-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+481            android:directBootAware="false"
+481-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+482            android:enabled="false"
+482-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+483            android:exported="false" >
+483-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+484            <intent-filter>
+484-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:34:13-37:29
+485                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+485-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:35:17-87
+485-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:35:25-84
+486                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+486-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:36:17-90
+486-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:36:25-87
+487            </intent-filter>
+488        </receiver>
+489        <receiver
+489-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+490            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+490-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+491            android:directBootAware="false"
+491-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+492            android:enabled="false"
+492-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+493            android:exported="false" >
+493-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+494            <intent-filter>
+494-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+495                <action android:name="android.intent.action.BATTERY_OKAY" />
+495-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+495-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+496                <action android:name="android.intent.action.BATTERY_LOW" />
+496-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+496-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+497            </intent-filter>
+498        </receiver>
+499        <receiver
+499-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+500            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+500-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+501            android:directBootAware="false"
+501-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+502            android:enabled="false"
+502-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+503            android:exported="false" >
+503-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+504            <intent-filter>
+504-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+505                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+505-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+505-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+506                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+506-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+506-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+507            </intent-filter>
+508        </receiver>
+509        <receiver
+509-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+510            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+510-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+511            android:directBootAware="false"
+511-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+512            android:enabled="false"
+512-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+513            android:exported="false" >
+513-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+514            <intent-filter>
+514-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:25:13-29:29
+515                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+515-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:26:17-28:50
+515-->[:net:download:service] D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod-3.6.1\AntennaPod-3.6.1\net\download\service\build\intermediates\merged_manifest\freeDebug\AndroidManifest.xml:27:21-72
+516            </intent-filter>
+517        </receiver>
+518        <receiver
+518-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+519            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+519-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+520            android:directBootAware="false"
+520-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+521            android:enabled="false"
+521-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+522            android:exported="false" >
+522-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+523            <intent-filter>
+523-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+524                <action android:name="android.intent.action.BOOT_COMPLETED" />
+524-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+524-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+525                <action android:name="android.intent.action.TIME_SET" />
+525-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+525-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+526                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+526-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+526-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+527            </intent-filter>
+528        </receiver>
+529        <receiver
+529-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+530            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+530-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+531            android:directBootAware="false"
+531-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+532            android:enabled="@bool/enable_system_alarm_service_default"
+532-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+533            android:exported="false" >
+533-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+534            <intent-filter>
+534-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+535                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+535-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+535-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+536            </intent-filter>
+537        </receiver>
+538        <receiver
+538-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+539            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+539-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+540            android:directBootAware="false"
+540-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+541            android:enabled="true"
+541-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+542            android:exported="true"
+542-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+543            android:permission="android.permission.DUMP" >
+543-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+544            <intent-filter>
+544-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+545                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+545-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+545-->[androidx.work:work-runtime:2.7.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\a2dec5070c12f941a2a3645c8de66739\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+546            </intent-filter>
+547        </receiver>
+548        <receiver
+548-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+549            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+549-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+550            android:directBootAware="false"
+550-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+551            android:enabled="true"
+551-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+552            android:exported="true"
+552-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+553            android:permission="android.permission.DUMP" >
+553-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+554            <intent-filter>
+554-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+555                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+555-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+555-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+556            </intent-filter>
+557            <intent-filter>
+557-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+558                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+558-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+558-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+559            </intent-filter>
+560            <intent-filter>
+560-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+561                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+561-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+561-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+562            </intent-filter>
+563            <intent-filter>
+563-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+564                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+564-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+564-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\AndroidStudioSetup\.gradle\caches\transforms-4\d76dcc673b1cd983dc53018a7c5e25e9\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+565            </intent-filter>
+566        </receiver>
+567
+568        <service
+568-->[androidx.room:room-runtime:2.2.5] D:\AndroidStudioSetup\.gradle\caches\transforms-4\1fbd36cf650a9fea194e82d8104e7e8c\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+569            android:name="androidx.room.MultiInstanceInvalidationService"
+569-->[androidx.room:room-runtime:2.2.5] D:\AndroidStudioSetup\.gradle\caches\transforms-4\1fbd36cf650a9fea194e82d8104e7e8c\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+570            android:directBootAware="true"
+570-->[androidx.room:room-runtime:2.2.5] D:\AndroidStudioSetup\.gradle\caches\transforms-4\1fbd36cf650a9fea194e82d8104e7e8c\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+571            android:exported="false" />
+571-->[androidx.room:room-runtime:2.2.5] D:\AndroidStudioSetup\.gradle\caches\transforms-4\1fbd36cf650a9fea194e82d8104e7e8c\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+572
+573        <meta-data
+573-->[com.github.bumptech.glide:okhttp3-integration:4.13.2] D:\AndroidStudioSetup\.gradle\caches\transforms-4\64014e58a6c3900ae0eec5691630895a\transformed\okhttp3-integration-4.13.2\AndroidManifest.xml:11:9-13:43
+574            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+574-->[com.github.bumptech.glide:okhttp3-integration:4.13.2] D:\AndroidStudioSetup\.gradle\caches\transforms-4\64014e58a6c3900ae0eec5691630895a\transformed\okhttp3-integration-4.13.2\AndroidManifest.xml:12:13-84
+575            android:value="GlideModule" />
+575-->[com.github.bumptech.glide:okhttp3-integration:4.13.2] D:\AndroidStudioSetup\.gradle\caches\transforms-4\64014e58a6c3900ae0eec5691630895a\transformed\okhttp3-integration-4.13.2\AndroidManifest.xml:13:13-40
+576    </application>
+577
+578</manifest>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="de.danoeh.antennapod.net.download.service" >
+
+    <uses-sdk android:minSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true" >
+        <receiver
+            android:name="de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver"
+            android:exported="true"
+            android:label="@string/feed_update_receiver_name"
+            tools:ignore="ExportedReceiver" /> <!-- allow feeds update to be triggered by external apps -->
+
+        <receiver
+            android:name="de.danoeh.antennapod.net.download.service.ConnectivityActionReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    tools:ignore="BatteryLife" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="de.danoeh.antennapod.net.download.service.PowerConnectionReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

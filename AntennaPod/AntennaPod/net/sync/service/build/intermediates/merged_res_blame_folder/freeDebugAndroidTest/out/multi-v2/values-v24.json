@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "de.danoeh.antennapod.net.sync.service.test.service-mergeFreeDebugAndroidTestResources-29:/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "D:\\AndroidStudioSetup\\.gradle\\caches\\transforms-4\\4f997712a97d9aa15c3a9f3f43295a4b\\transformed\\appcompat-1.5.1\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidStudioSetup\\.gradle\\caches\\transforms-4\\065bea815552ab5370637ee9ed460104\\transformed\\media-1.6.0\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "347,413,474,540",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "408,469,535,602"
+                    }
+                }
+            ]
+        }
+    ]
+}

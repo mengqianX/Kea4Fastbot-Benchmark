@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "de.danoeh.antennapod.app-mergeFreeDebugResources-48:/values-w300dp-v13/values-w300dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\GitHubRepo\\themis\\HybirdDroid\\projects\\AntennaPod-3.6.1\\AntennaPod-3.6.1\\app\\src\\main\\res\\values-w300dp\\dimens.xml",
+                    "from": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "102,426",
+                        "endColumns": "59,105",
+                        "endOffsets": "157,527"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,160",
+                        "endColumns": "59,103",
+                        "endOffsets": "155,259"
+                    }
+                }
+            ]
+        }
+    ]
+}

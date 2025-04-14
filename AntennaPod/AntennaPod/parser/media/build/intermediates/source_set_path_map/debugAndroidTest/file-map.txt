@@ -1,0 +1,9 @@
+de.danoeh.antennapod.parser.media.test.media-media-1.6.0-0 D:\AndroidStudioSetup\.gradle\caches\transforms-4\065bea815552ab5370637ee9ed460104\transformed\media-1.6.0\res
+de.danoeh.antennapod.parser.media.test.media-annotation-experimental-1.1.0-1 D:\AndroidStudioSetup\.gradle\caches\transforms-4\6ae8f1b314de2e8c8ef5ffcfd8b0b03e\transformed\annotation-experimental-1.1.0\res
+de.danoeh.antennapod.parser.media.test.media-core-1.6.0-2 D:\AndroidStudioSetup\.gradle\caches\transforms-4\c68530917f0160b840eaf64ef151bab8\transformed\core-1.6.0\res
+de.danoeh.antennapod.parser.media.test.media-packaged_res-3 D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\model\build\intermediates\packaged_res\debug
+de.danoeh.antennapod.parser.media.test.media-androidTest-4 D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\parser\media\build\generated\res\resValues\androidTest\debug
+de.danoeh.antennapod.parser.media.test.media-mergeDebugAndroidTestResources-5 D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\parser\media\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+de.danoeh.antennapod.parser.media.test.media-mergeDebugAndroidTestResources-6 D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\parser\media\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+de.danoeh.antennapod.parser.media.test.media-merged_res-7 D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\parser\media\build\intermediates\merged_res\debugAndroidTest
+de.danoeh.antennapod.parser.media.test.media-packaged_res-8 D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\parser\media\build\intermediates\packaged_res\debug

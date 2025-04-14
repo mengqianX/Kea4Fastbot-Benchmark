@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "de.danoeh.antennapod.app-mergeFreeDebugResources-48:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "D:\\AndroidStudioSetup\\.gradle\\caches\\transforms-4\\e929e676b59d84d01a44ca7d6d5ae815\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    }
+                }
+            ]
+        }
+    ]
+}

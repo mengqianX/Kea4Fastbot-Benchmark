@@ -1,0 +1,6 @@
+R_DEF: Internal format may change without notice
+local
+id notification_gpodnet_sync_autherror
+id notification_gpodnet_sync_error
+id pending_intent_sync_error
+string app_name

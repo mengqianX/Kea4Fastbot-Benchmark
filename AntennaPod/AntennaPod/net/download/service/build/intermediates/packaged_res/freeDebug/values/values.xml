@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="notification_auto_download_report" type="id"/>
+    <item name="notification_download_report" type="id"/>
+    <item name="notification_downloading" type="id"/>
+    <item name="notification_updating_feeds" type="id"/>
+    <string name="app_name" translatable="false">AntennaPod Debug</string>
+</resources>

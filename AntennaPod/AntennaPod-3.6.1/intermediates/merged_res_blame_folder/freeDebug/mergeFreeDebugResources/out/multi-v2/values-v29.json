@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "de.danoeh.antennapod.app-mergeFreeDebugResources-48:/values-v29/values-v29.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\10608\\.gradle\\caches\\8.9\\transforms\\f017000e0e54ab18d8d97d2d7da9c0b8\\transformed\\core-splashscreen-1.0.0\\res\\values-v29\\values-v29.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,374",
+                        "endLines": "6,8",
+                        "endColumns": "12,12",
+                        "endOffsets": "369,464"
+                    }
+                }
+            ]
+        }
+    ]
+}

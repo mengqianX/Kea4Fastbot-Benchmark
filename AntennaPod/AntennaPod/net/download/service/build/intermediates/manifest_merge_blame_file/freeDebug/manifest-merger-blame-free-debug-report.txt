@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="de.danoeh.antennapod.net.download.service" >
+5
+6    <uses-sdk android:minSdkVersion="21" />
+7
+8    <uses-permission android:name="android.permission.INTERNET" />
+8-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:3:5-67
+8-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:3:22-64
+9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+9-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:4:5-79
+9-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:4:22-76
+10    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+10-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:5:5-76
+10-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:5:22-73
+11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+11-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:6:5-77
+11-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:6:22-74
+12
+13    <application
+13-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:8:5-34:19
+14        android:allowBackup="true"
+14-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:9:9-35
+15        android:supportsRtl="true" >
+15-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:10:9-35
+16        <receiver
+16-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:12:9-15:53
+17            android:name="de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver"
+17-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:12:19-58
+18            android:exported="true"
+18-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:14:19-42
+19            android:label="@string/feed_update_receiver_name"
+19-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:13:19-68
+20            tools:ignore="ExportedReceiver" /> <!-- allow feeds update to be triggered by external apps -->
+20-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:15:19-50
+21
+22        <receiver
+22-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:17:9-23:20
+23            android:name="de.danoeh.antennapod.net.download.service.ConnectivityActionReceiver"
+23-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:18:13-55
+24            android:exported="true" >
+24-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:19:13-36
+25            <intent-filter>
+25-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:20:13-22:29
+26                <action
+26-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:21:17-105
+27                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+27-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:21:25-76
+28                    tools:ignore="BatteryLife" />
+28-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:21:77-103
+29            </intent-filter>
+30        </receiver>
+31        <receiver
+31-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:25:9-32:20
+32            android:name="de.danoeh.antennapod.net.download.service.PowerConnectionReceiver"
+32-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:26:13-52
+33            android:exported="true" >
+33-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:27:13-36
+34            <intent-filter>
+34-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:28:13-31:29
+35                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+35-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:29:17-86
+35-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:29:25-84
+36                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+36-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:30:17-89
+36-->D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:30:25-87
+37            </intent-filter>
+38        </receiver>
+39    </application>
+40
+41</manifest>

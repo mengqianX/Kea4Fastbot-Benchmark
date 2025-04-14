@@ -1,0 +1,96 @@
+{
+	"AnkiDroid-amazon-x86-debug.apk":{
+		"classfiles":["AnkiDroid/build/intermediates/javac/amazonDebug/compileAmazonDebugJavaWithJavac/classes"],
+		"sourcefiles":[""]
+	},
+	"AnkiDroid-debug-2.6beta6-#4200.apk": {
+		"classfiles": ["AnkiDroid-#4200/AnkiDroid/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/"],
+		"sourcefiles": ["AnkiDroid-#4200/AnkiDroid/src/main/java/", "AnkiDroid-#4200/api/src/main/java/"]
+	},
+	"AnkiDroid-debug-v2.6beta6-#4200.apk": {
+		"classfiles": ["AnkiDroid-#4200/AnkiDroid/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/"],
+		"sourcefiles": ["AnkiDroid-#4200/AnkiDroid/src/main/java/", "AnkiDroid-#4200/api/src/main/java/"]
+	},
+	"AnkiDroid-debug-2.7beta1-#4451.apk": {
+		"classfiles": ["AnkiDroid-#4451/AnkiDroid/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/"],
+		"sourcefiles": ["AnkiDroid-#4451/AnkiDroid/src/main/java/", "AnkiDroid-#4451/api/src/main/java/"]
+	},
+	"AnkiDroid-debug-2.9.1-#5638.apk": {
+		"classfiles": ["AnkiDroid-#5638/AnkiDroid/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/",
+						"AnkiDroid-#5638/api/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/"
+						],
+		"sourcefiles": ["AnkiDroid-#5638/AnkiDroid/src/main/java/", "AnkiDroid-#5638/api/src/main/java/"]
+	},
+	"AnkiDroid-debug-2.9alpha4-#4707.apk": {
+		"classfiles": ["AnkiDroid-#4707/AnkiDroid/build/intermediates/classes/debug/",
+						"AnkiDroid-#4707/api/build/intermediates/javac/debug/classes/"
+						],
+		"sourcefiles": ["AnkiDroid-#4707/AnkiDroid/src/main/java/", "AnkiDroid-#4707/api/src/main/java/"]
+	},
+	"AnkiDroid-debug-2.9-#4977.apk": {
+		"classfiles": ["AnkiDroid-#4977/AnkiDroid/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/",
+						"AnkiDroid-#4977/api/build/intermediates/javac/debug/classes/"
+						],
+		"sourcefiles": ["AnkiDroid-#4977/AnkiDroid/src/main/java/", "AnkiDroid-#4977/api/src/main/java/"]
+	},
+	"AnkiDroid-debug-2.9.4-#5756.apk": {
+		"classfiles": ["AnkiDroid-#5756/AnkiDroid/build/intermediates/javac/debug/classes/",
+						"AnkiDroid-#5756/api/build/intermediates/javac/debug/classes/"
+						],
+		"sourcefiles": ["AnkiDroid-#5756/AnkiDroid/src/main/java/", "AnkiDroid-#5756/api/src/main/java/"]
+	},
+	"AnkiDroid-debug-2.10beta3-#6145.apk": {
+		"classfiles": ["AnkiDroid-#6145/AnkiDroid/build/intermediates/javac/debug/classes/",
+						"AnkiDroid-#6145/api/build/intermediates/javac/debug/classes/"
+						],
+		"sourcefiles": ["AnkiDroid-#6145/AnkiDroid/src/main/java/", "AnkiDroid-#6145/api/src/main/java/"]
+	},
+	"AnkiDroid-2.15.1-#8972.apk": {
+		"classfiles": ["AnkiDroid-#8972/AnkiDroid/build/intermediates/javac/amazonDebug/classes/",
+						"AnkiDroid-#8972/api/build/intermediates/javac/debug/classes/"
+						],
+		"sourcefiles": ["AnkiDroid-#8972/AnkiDroid/src/main/java/", "AnkiDroid-#8972/api/src/main/java/"]
+	},
+	"AnkiDroid-2.15.1-#8973.apk": {
+		"classfiles": ["AnkiDroid-#8973/AnkiDroid/build/intermediates/javac/amazonDebug/classes/",
+						"AnkiDroid-#8973/api/build/intermediates/javac/debug/classes/"
+						],
+		"sourcefiles": ["AnkiDroid-#8973/AnkiDroid/src/main/java/", "AnkiDroid-#8973/api/src/main/java/"]
+	},
+	"AnkiDroid-2.15alpha39-#8460.apk": {
+		"classfiles": ["AnkiDroid-#8460/AnkiDroid/build/intermediates/javac/debug/classes/",
+						"AnkiDroid-#8460/api/build/intermediates/javac/debug/classes/"
+						],
+		"sourcefiles": ["AnkiDroid-#8460/AnkiDroid/src/main/java/", "AnkiDroid-#8460/api/src/main/java/"]
+	},
+	"AnkiDroid-2.16alpha2-#9164.apk": {
+		"classfiles": ["AnkiDroid-#9164/AnkiDroid/build/intermediates/javac/amazonDebug/classes/",
+						"AnkiDroid-#9164/api/build/intermediates/javac/debug/classes/"
+						],
+		"sourcefiles": ["AnkiDroid-#9164/AnkiDroid/src/main/java/", "AnkiDroid-#9164/api/src/main/java/"]
+	},
+	"AnkiDroid-2.16alpha33-#9914.apk": {
+		"classfiles": ["AnkiDroid-#9914/AnkiDroid/build/intermediates/javac/amazonDebug/classes/",
+						"AnkiDroid-#9914/api/build/intermediates/javac/debug/classes/"
+						],
+		"sourcefiles": ["AnkiDroid-#9914/AnkiDroid/src/main/java/", "AnkiDroid-#9914/api/src/main/java/"]
+	},
+	"AnkiDroid-2.16alpha48-#11280.apk": {
+		"classfiles": ["AnkiDroid-#11280/AnkiDroid/build/intermediates/javac/amazonDebug/classes/",
+						"AnkiDroid-#11280/api/build/intermediates/javac/debug/classes/"
+						],
+		"sourcefiles": ["AnkiDroid-#11280/AnkiDroid/src/main/java/", "AnkiDroid-#11280/api/src/main/java/"]
+	},
+	"AnkiDroid-2.16alpha54-#10687.apk": {
+		"classfiles": ["AnkiDroid-#10687/AnkiDroid/build/intermediates/javac/amazonDebug/classes/",
+						"AnkiDroid-#10687/api/build/intermediates/javac/debug/classes/"
+						],
+		"sourcefiles": ["AnkiDroid-#10687/AnkiDroid/src/main/java/", "AnkiDroid-#10687/api/src/main/java/"]
+	},
+	"AnkiDroid-2.16alpha67-debug-#11586.apk": {
+		"classfiles": ["AnkiDroid-#10687/AnkiDroid/build/intermediates/javac/amazonDebug/classes/",
+						"AnkiDroid-#10687/api/build/intermediates/javac/debug/classes/"
+						],
+		"sourcefiles": ["AnkiDroid-#10687/AnkiDroid/src/main/java/", "AnkiDroid-#10687/api/src/main/java/"]
+	}
+}

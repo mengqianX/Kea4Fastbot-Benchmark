@@ -1,0 +1,80 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:1:1-36:12
+	package
+		INJECTED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:1:70-116
+	xmlns:android
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:3:5-67
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:3:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:4:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:5:5-76
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:5:22-73
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:6:5-77
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:6:22-74
+application
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:8:5-34:19
+	android:supportsRtl
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:10:9-35
+	android:allowBackup
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:9:9-35
+receiver#de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:12:9-15:53
+	android:label
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:13:19-68
+	android:exported
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:14:19-42
+	tools:ignore
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:15:19-50
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:12:19-58
+receiver#de.danoeh.antennapod.net.download.service.ConnectivityActionReceiver
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:17:9-23:20
+	android:exported
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:18:13-55
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:20:13-22:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:21:17-105
+	tools:ignore
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:21:77-103
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:21:25-76
+receiver#de.danoeh.antennapod.net.download.service.PowerConnectionReceiver
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:25:9-32:20
+	android:exported
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:26:13-52
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:28:13-31:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:29:17-86
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:29:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:30:17-89
+	android:name
+		ADDED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml:30:25-87
+uses-sdk
+INJECTED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml
+INJECTED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\GitHubRepo\themis\HybirdDroid\projects\AntennaPod\net\download\service\src\main\AndroidManifest.xml

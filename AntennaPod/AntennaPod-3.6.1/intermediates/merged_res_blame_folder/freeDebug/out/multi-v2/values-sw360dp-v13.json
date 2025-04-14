@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "de.danoeh.antennapod.app-mergeFreeDebugResources-48:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\GitHubRepo\\themis\\HybirdDroid\\projects\\AntennaPod-3.6.1\\AntennaPod-3.6.1\\app\\src\\main\\res\\values-sw360dp\\resource-overrides.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "157",
+                        "endColumns": "94",
+                        "endOffsets": "247"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endColumns": "92",
+                        "endOffsets": "188"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+id notification_auto_download_report
+id notification_download_report
+id notification_downloading
+id notification_updating_feeds
+string app_name

@@ -1,0 +1,39 @@
+{
+    "logs": [
+        {
+            "outputFile": "de.danoeh.antennapod.app-mergeFreeDebugResources-48:/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "D:\\GitHubRepo\\themis\\HybirdDroid\\projects\\AntennaPod-3.6.1\\AntennaPod-3.6.1\\ui\\common\\build\\intermediates\\packaged_res\\debug\\values-v27\\values-v27.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "364"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "593",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "902"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidStudioSetup\\.gradle\\caches\\transforms-4\\93102aa9afda984b560008ddf1285445\\transformed\\core-splashscreen-1.0.0\\res\\values-v27\\values-v27.xml",
+                    "from": {
+                        "startLines": "2,3,4,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,136,229,405",
+                        "endLines": "2,3,6,9",
+                        "endColumns": "80,92,12,12",
+                        "endOffsets": "131,224,400,588"
+                    }
+                }
+            ]
+        }
+    ]
+}
